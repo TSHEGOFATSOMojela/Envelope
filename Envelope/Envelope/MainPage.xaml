@@ -2,10 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Envelope"
-             x:Class="Envelope.MainPage">
+             x:Class="Envelope.MainPage"
+             BackgroundColor="White">
+    <StackLayout>
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+         <Image  Margin="20" VerticalOptions="Start" HeightRequest="220" WidthRequest="220"  Source="Ekurhulen.png"/>
+        
+        <Entry x:Name="username" Placeholder="Username" HorizontalTextAlignment="Start"/>
+        
+        <Entry x:Name="password" IsPassword="True" Placeholder="Password" HorizontalTextAlignment="Start"/>
+
+        <Label Text="Forgot password?" TextColor="Pink" HorizontalTextAlignment="Start"/>
+
+        <Button x:Name="login" Text="Login" Clicked="login_Clicked" BackgroundColor="Gray" TextColor="White" MinimumWidthRequest="300"/>
+        <Label Text="New? Create Account" TextColor="Gray" HorizontalTextAlignment="Center"/>
+
+    </StackLayout>
 
 </ContentPage>

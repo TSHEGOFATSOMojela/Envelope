@@ -13,7 +13,7 @@ namespace Envelope
 		{
 			InitializeComponent();
 
-			MainPage = new Envelope.MainPage();
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()

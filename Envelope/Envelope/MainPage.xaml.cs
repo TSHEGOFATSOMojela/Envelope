@@ -13,5 +13,9 @@ namespace Envelope
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void login_Clicked(object sender, EventArgs e)
+        {
+        }
+    }
 }
