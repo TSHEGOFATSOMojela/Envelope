@@ -4,19 +4,20 @@
              xmlns:local="clr-namespace:Envelope"
              x:Class="Envelope.MainPage"
              BackgroundColor="White">
-    <StackLayout>
+    <ScrollView>
+        <StackLayout>
 
-         <Image  Margin="20" VerticalOptions="Start" HeightRequest="220" WidthRequest="220"  Source="Ekurhulen.png"/>
-        
-        <Entry x:Name="username" Placeholder="Username" HorizontalTextAlignment="Start"/>
-        
-        <Entry x:Name="password" IsPassword="True" Placeholder="Password" HorizontalTextAlignment="Start"/>
+            <Image  Margin="20" VerticalOptions="Start" HeightRequest="220" WidthRequest="220"  Source="Ekurhulen.png"/>
 
-        <Label Text="Forgot password?" TextColor="Pink" HorizontalTextAlignment="Start"/>
+            <Entry x:Name="username" Placeholder="Username" HorizontalTextAlignment="Start"/>
 
-        <Button x:Name="login" Text="Login" Clicked="login_Clicked" BackgroundColor="Gray" TextColor="White" MinimumWidthRequest="300"/>
-        <Label Text="New? Create Account" TextColor="Gray" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="password" IsPassword="True" Placeholder="Password" HorizontalTextAlignment="Start"/>
 
-    </StackLayout>
+            <Label Text="Forgot password?" TextColor="Pink" HorizontalTextAlignment="Start"/>
 
+            <Button x:Name="login" Text="Login" Clicked="loginClicked" BackgroundColor="Gray" TextColor="White" MinimumWidthRequest="300"/>
+            <Label Text="New? Create Account" TextColor="Gray" HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
