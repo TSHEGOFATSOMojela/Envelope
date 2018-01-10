@@ -14,8 +14,11 @@ namespace Envelope
 			InitializeComponent();
 		}
 
-        private void login_Clicked(object sender, EventArgs e)
+        async void loginClicked(object sender, EventArgs args)
         {
+            await Navigation.PushAsync(new HomePage());
         }
+
+  
     }
 }

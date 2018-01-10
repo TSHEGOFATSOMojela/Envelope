@@ -16,26 +16,19 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="$(MSBuildThisFileDirectory)Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="$(MSBuildThisFileDirectory)Page1.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="$(MSBuildThisFileDirectory)Page2.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="$(MSBuildThisFileDirectory)Page3.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="$(MSBuildThisFileDirectory)View1.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <Page Include="$(MSBuildThisFileDirectory)views\mainLandingPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
