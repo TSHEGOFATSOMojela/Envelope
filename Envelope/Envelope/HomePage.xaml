@@ -2,13 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Envelope.HomePage"
-             Title="Home">>
+             BackgroundColor="White"
+             Title="City Of Ekurhuleni">
     
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="You have loggod in"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    
+
+    <StackLayout>
+        <Image  Margin="20" VerticalOptions="Start" HeightRequest="220" WidthRequest="220"  Source="Ekurhulen.png"/>
+
+        <AbsoluteLayout>
+            <Image Source="Ekurhulen.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+        </AbsoluteLayout>
+    </StackLayout>
+   
 </ContentPage>

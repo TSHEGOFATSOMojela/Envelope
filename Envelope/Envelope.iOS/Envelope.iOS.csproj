@@ -119,10 +119,34 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="easterapps.xamarin.forms.imagebutton">
+      <Version>1.0.7</Version>
+    </PackageReference>
+    <PackageReference Include="ExternalGoods.ImageButton.WP">
+      <Version>1.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="paper-icon-button">
+      <Version>1.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugin.ImageButton">
+      <Version>2.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle">
+      <Version>2.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Ekurhulen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_build_3x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_build.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_build_2x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\Envelope\Envelope.projitems" Label="Shared" />
