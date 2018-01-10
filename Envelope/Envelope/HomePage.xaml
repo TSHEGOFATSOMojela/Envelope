@@ -4,16 +4,29 @@
              x:Class="Envelope.HomePage"
              BackgroundColor="White"
              Title="City Of Ekurhuleni">
-    
-    
 
-    <StackLayout>
-        <Image  Margin="20" VerticalOptions="Start" HeightRequest="220" WidthRequest="220"  Source="Ekurhulen.png"/>
 
-        <AbsoluteLayout>
-            <Image Source="Ekurhulen.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
-            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
-        </AbsoluteLayout>
-    </StackLayout>
-   
+    <ScrollView>
+        <StackLayout>
+            <Image  Margin="20" VerticalOptions="Start" HeightRequest="220" WidthRequest="220"  Source="Ekurhulen.png"/>
+            <Button x:Name="Tourist" 
+                Text="Tourist"
+                Clicked="TouristClicked"
+                BackgroundColor="Gray"
+                TextColor="White"
+                MinimumWidthRequest="300"/>
+            <Button x:Name="Settings" 
+                Text="Settings"
+                Clicked="SettingsClicked"
+                BackgroundColor="Gray"
+                TextColor="White"
+                MinimumWidthRequest="300"/>
+            <Button x:Name="ReportIt" 
+                Text="ReportIt"
+                Clicked="ReportItClicked"
+                BackgroundColor="Gray"
+                TextColor="White"
+                MinimumWidthRequest="300"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
