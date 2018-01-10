@@ -6,27 +6,43 @@
              Title="City Of Ekurhuleni">
 
 
-    <ScrollView>
-        <StackLayout>
-            <Image  Margin="20" VerticalOptions="Start" HeightRequest="220" WidthRequest="220"  Source="Ekurhulen.png"/>
-            <Button x:Name="Tourist" 
-                Text="Tourist"
-                Clicked="TouristClicked"
-                BackgroundColor="Gray"
-                TextColor="White"
-                MinimumWidthRequest="300"/>
-            <Button x:Name="Settings" 
-                Text="Settings"
-                Clicked="SettingsClicked"
-                BackgroundColor="Gray"
-                TextColor="White"
-                MinimumWidthRequest="300"/>
-            <Button x:Name="ReportIt" 
-                Text="ReportIt"
-                Clicked="ReportItClicked"
-                BackgroundColor="Gray"
-                TextColor="White"
-                MinimumWidthRequest="300"/>
-        </StackLayout>
-    </ScrollView>
+
+        <AbsoluteLayout>
+            <Image Source="tourisim.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="Tourism"></Label>
+        </AbsoluteLayout>
+
+        <AbsoluteLayout>
+            <Image Source="settings.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="settings"></Label>
+        </AbsoluteLayout>
+
+        <AbsoluteLayout>
+            <Image Source="reportIt.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="report it"></Label>
+        </AbsoluteLayout>
+
+        <AbsoluteLayout>
+            <Image Source="general.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="General"></Label>
+        </AbsoluteLayout>
+        <AbsoluteLayout>
+            <Image Source="siyakhoka.jpg" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="e-Siyakhokha"></Label>
+        </AbsoluteLayout>
+        
+        <AbsoluteLayout>
+            <Image Source="requestIt.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="request it"></Label>
+        </AbsoluteLayout>
+        
+    </StackLayout>
+   
+
 </ContentPage>
