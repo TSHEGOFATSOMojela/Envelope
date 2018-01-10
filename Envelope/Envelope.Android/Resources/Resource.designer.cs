@@ -26,6 +26,1643 @@ namespace Envelope.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::ImageButton.Android.Resource.Animation.abc_fade_in = global::Envelope.Droid.Resource.Animation.abc_fade_in;
+			global::ImageButton.Android.Resource.Animation.abc_fade_out = global::Envelope.Droid.Resource.Animation.abc_fade_out;
+			global::ImageButton.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Envelope.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::ImageButton.Android.Resource.Animation.abc_popup_enter = global::Envelope.Droid.Resource.Animation.abc_popup_enter;
+			global::ImageButton.Android.Resource.Animation.abc_popup_exit = global::Envelope.Droid.Resource.Animation.abc_popup_exit;
+			global::ImageButton.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Envelope.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::ImageButton.Android.Resource.Animation.abc_slide_in_bottom = global::Envelope.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::ImageButton.Android.Resource.Animation.abc_slide_in_top = global::Envelope.Droid.Resource.Animation.abc_slide_in_top;
+			global::ImageButton.Android.Resource.Animation.abc_slide_out_bottom = global::Envelope.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::ImageButton.Android.Resource.Animation.abc_slide_out_top = global::Envelope.Droid.Resource.Animation.abc_slide_out_top;
+			global::ImageButton.Android.Resource.Animation.design_bottom_sheet_slide_in = global::Envelope.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::ImageButton.Android.Resource.Animation.design_bottom_sheet_slide_out = global::Envelope.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::ImageButton.Android.Resource.Animation.design_fab_in = global::Envelope.Droid.Resource.Animation.design_fab_in;
+			global::ImageButton.Android.Resource.Animation.design_fab_out = global::Envelope.Droid.Resource.Animation.design_fab_out;
+			global::ImageButton.Android.Resource.Animation.design_snackbar_in = global::Envelope.Droid.Resource.Animation.design_snackbar_in;
+			global::ImageButton.Android.Resource.Animation.design_snackbar_out = global::Envelope.Droid.Resource.Animation.design_snackbar_out;
+			global::ImageButton.Android.Resource.Attribute.actionBarDivider = global::Envelope.Droid.Resource.Attribute.actionBarDivider;
+			global::ImageButton.Android.Resource.Attribute.actionBarItemBackground = global::Envelope.Droid.Resource.Attribute.actionBarItemBackground;
+			global::ImageButton.Android.Resource.Attribute.actionBarPopupTheme = global::Envelope.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::ImageButton.Android.Resource.Attribute.actionBarSize = global::Envelope.Droid.Resource.Attribute.actionBarSize;
+			global::ImageButton.Android.Resource.Attribute.actionBarSplitStyle = global::Envelope.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::ImageButton.Android.Resource.Attribute.actionBarStyle = global::Envelope.Droid.Resource.Attribute.actionBarStyle;
+			global::ImageButton.Android.Resource.Attribute.actionBarTabBarStyle = global::Envelope.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::ImageButton.Android.Resource.Attribute.actionBarTabStyle = global::Envelope.Droid.Resource.Attribute.actionBarTabStyle;
+			global::ImageButton.Android.Resource.Attribute.actionBarTabTextStyle = global::Envelope.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::ImageButton.Android.Resource.Attribute.actionBarTheme = global::Envelope.Droid.Resource.Attribute.actionBarTheme;
+			global::ImageButton.Android.Resource.Attribute.actionBarWidgetTheme = global::Envelope.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::ImageButton.Android.Resource.Attribute.actionButtonStyle = global::Envelope.Droid.Resource.Attribute.actionButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.actionDropDownStyle = global::Envelope.Droid.Resource.Attribute.actionDropDownStyle;
+			global::ImageButton.Android.Resource.Attribute.actionLayout = global::Envelope.Droid.Resource.Attribute.actionLayout;
+			global::ImageButton.Android.Resource.Attribute.actionMenuTextAppearance = global::Envelope.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.actionMenuTextColor = global::Envelope.Droid.Resource.Attribute.actionMenuTextColor;
+			global::ImageButton.Android.Resource.Attribute.actionModeBackground = global::Envelope.Droid.Resource.Attribute.actionModeBackground;
+			global::ImageButton.Android.Resource.Attribute.actionModeCloseButtonStyle = global::Envelope.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.actionModeCloseDrawable = global::Envelope.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::ImageButton.Android.Resource.Attribute.actionModeCopyDrawable = global::Envelope.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::ImageButton.Android.Resource.Attribute.actionModeCutDrawable = global::Envelope.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::ImageButton.Android.Resource.Attribute.actionModeFindDrawable = global::Envelope.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::ImageButton.Android.Resource.Attribute.actionModePasteDrawable = global::Envelope.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::ImageButton.Android.Resource.Attribute.actionModePopupWindowStyle = global::Envelope.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::ImageButton.Android.Resource.Attribute.actionModeSelectAllDrawable = global::Envelope.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::ImageButton.Android.Resource.Attribute.actionModeShareDrawable = global::Envelope.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::ImageButton.Android.Resource.Attribute.actionModeSplitBackground = global::Envelope.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::ImageButton.Android.Resource.Attribute.actionModeStyle = global::Envelope.Droid.Resource.Attribute.actionModeStyle;
+			global::ImageButton.Android.Resource.Attribute.actionModeWebSearchDrawable = global::Envelope.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::ImageButton.Android.Resource.Attribute.actionOverflowButtonStyle = global::Envelope.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.actionOverflowMenuStyle = global::Envelope.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::ImageButton.Android.Resource.Attribute.actionProviderClass = global::Envelope.Droid.Resource.Attribute.actionProviderClass;
+			global::ImageButton.Android.Resource.Attribute.actionViewClass = global::Envelope.Droid.Resource.Attribute.actionViewClass;
+			global::ImageButton.Android.Resource.Attribute.activityChooserViewStyle = global::Envelope.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::ImageButton.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::Envelope.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::ImageButton.Android.Resource.Attribute.alertDialogCenterButtons = global::Envelope.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::ImageButton.Android.Resource.Attribute.alertDialogStyle = global::Envelope.Droid.Resource.Attribute.alertDialogStyle;
+			global::ImageButton.Android.Resource.Attribute.alertDialogTheme = global::Envelope.Droid.Resource.Attribute.alertDialogTheme;
+			global::ImageButton.Android.Resource.Attribute.allowStacking = global::Envelope.Droid.Resource.Attribute.allowStacking;
+			global::ImageButton.Android.Resource.Attribute.arrowHeadLength = global::Envelope.Droid.Resource.Attribute.arrowHeadLength;
+			global::ImageButton.Android.Resource.Attribute.arrowShaftLength = global::Envelope.Droid.Resource.Attribute.arrowShaftLength;
+			global::ImageButton.Android.Resource.Attribute.autoCompleteTextViewStyle = global::Envelope.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::ImageButton.Android.Resource.Attribute.background = global::Envelope.Droid.Resource.Attribute.background;
+			global::ImageButton.Android.Resource.Attribute.backgroundSplit = global::Envelope.Droid.Resource.Attribute.backgroundSplit;
+			global::ImageButton.Android.Resource.Attribute.backgroundStacked = global::Envelope.Droid.Resource.Attribute.backgroundStacked;
+			global::ImageButton.Android.Resource.Attribute.backgroundTint = global::Envelope.Droid.Resource.Attribute.backgroundTint;
+			global::ImageButton.Android.Resource.Attribute.backgroundTintMode = global::Envelope.Droid.Resource.Attribute.backgroundTintMode;
+			global::ImageButton.Android.Resource.Attribute.barLength = global::Envelope.Droid.Resource.Attribute.barLength;
+			global::ImageButton.Android.Resource.Attribute.behavior_hideable = global::Envelope.Droid.Resource.Attribute.behavior_hideable;
+			global::ImageButton.Android.Resource.Attribute.behavior_overlapTop = global::Envelope.Droid.Resource.Attribute.behavior_overlapTop;
+			global::ImageButton.Android.Resource.Attribute.behavior_peekHeight = global::Envelope.Droid.Resource.Attribute.behavior_peekHeight;
+			global::ImageButton.Android.Resource.Attribute.borderWidth = global::Envelope.Droid.Resource.Attribute.borderWidth;
+			global::ImageButton.Android.Resource.Attribute.borderlessButtonStyle = global::Envelope.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.bottomSheetDialogTheme = global::Envelope.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::ImageButton.Android.Resource.Attribute.bottomSheetStyle = global::Envelope.Droid.Resource.Attribute.bottomSheetStyle;
+			global::ImageButton.Android.Resource.Attribute.buttonBarButtonStyle = global::Envelope.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::Envelope.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::Envelope.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::Envelope.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.buttonBarStyle = global::Envelope.Droid.Resource.Attribute.buttonBarStyle;
+			global::ImageButton.Android.Resource.Attribute.buttonPanelSideLayout = global::Envelope.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::ImageButton.Android.Resource.Attribute.buttonStyle = global::Envelope.Droid.Resource.Attribute.buttonStyle;
+			global::ImageButton.Android.Resource.Attribute.buttonStyleSmall = global::Envelope.Droid.Resource.Attribute.buttonStyleSmall;
+			global::ImageButton.Android.Resource.Attribute.buttonTint = global::Envelope.Droid.Resource.Attribute.buttonTint;
+			global::ImageButton.Android.Resource.Attribute.buttonTintMode = global::Envelope.Droid.Resource.Attribute.buttonTintMode;
+			global::ImageButton.Android.Resource.Attribute.cardBackgroundColor = global::Envelope.Droid.Resource.Attribute.cardBackgroundColor;
+			global::ImageButton.Android.Resource.Attribute.cardCornerRadius = global::Envelope.Droid.Resource.Attribute.cardCornerRadius;
+			global::ImageButton.Android.Resource.Attribute.cardElevation = global::Envelope.Droid.Resource.Attribute.cardElevation;
+			global::ImageButton.Android.Resource.Attribute.cardMaxElevation = global::Envelope.Droid.Resource.Attribute.cardMaxElevation;
+			global::ImageButton.Android.Resource.Attribute.cardPreventCornerOverlap = global::Envelope.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::ImageButton.Android.Resource.Attribute.cardUseCompatPadding = global::Envelope.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::ImageButton.Android.Resource.Attribute.checkboxStyle = global::Envelope.Droid.Resource.Attribute.checkboxStyle;
+			global::ImageButton.Android.Resource.Attribute.checkedTextViewStyle = global::Envelope.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::ImageButton.Android.Resource.Attribute.closeIcon = global::Envelope.Droid.Resource.Attribute.closeIcon;
+			global::ImageButton.Android.Resource.Attribute.closeItemLayout = global::Envelope.Droid.Resource.Attribute.closeItemLayout;
+			global::ImageButton.Android.Resource.Attribute.collapseContentDescription = global::Envelope.Droid.Resource.Attribute.collapseContentDescription;
+			global::ImageButton.Android.Resource.Attribute.collapseIcon = global::Envelope.Droid.Resource.Attribute.collapseIcon;
+			global::ImageButton.Android.Resource.Attribute.collapsedTitleGravity = global::Envelope.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::ImageButton.Android.Resource.Attribute.collapsedTitleTextAppearance = global::Envelope.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.color = global::Envelope.Droid.Resource.Attribute.color;
+			global::ImageButton.Android.Resource.Attribute.colorAccent = global::Envelope.Droid.Resource.Attribute.colorAccent;
+			global::ImageButton.Android.Resource.Attribute.colorButtonNormal = global::Envelope.Droid.Resource.Attribute.colorButtonNormal;
+			global::ImageButton.Android.Resource.Attribute.colorControlActivated = global::Envelope.Droid.Resource.Attribute.colorControlActivated;
+			global::ImageButton.Android.Resource.Attribute.colorControlHighlight = global::Envelope.Droid.Resource.Attribute.colorControlHighlight;
+			global::ImageButton.Android.Resource.Attribute.colorControlNormal = global::Envelope.Droid.Resource.Attribute.colorControlNormal;
+			global::ImageButton.Android.Resource.Attribute.colorPrimary = global::Envelope.Droid.Resource.Attribute.colorPrimary;
+			global::ImageButton.Android.Resource.Attribute.colorPrimaryDark = global::Envelope.Droid.Resource.Attribute.colorPrimaryDark;
+			global::ImageButton.Android.Resource.Attribute.colorSwitchThumbNormal = global::Envelope.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::ImageButton.Android.Resource.Attribute.commitIcon = global::Envelope.Droid.Resource.Attribute.commitIcon;
+			global::ImageButton.Android.Resource.Attribute.contentInsetEnd = global::Envelope.Droid.Resource.Attribute.contentInsetEnd;
+			global::ImageButton.Android.Resource.Attribute.contentInsetLeft = global::Envelope.Droid.Resource.Attribute.contentInsetLeft;
+			global::ImageButton.Android.Resource.Attribute.contentInsetRight = global::Envelope.Droid.Resource.Attribute.contentInsetRight;
+			global::ImageButton.Android.Resource.Attribute.contentInsetStart = global::Envelope.Droid.Resource.Attribute.contentInsetStart;
+			global::ImageButton.Android.Resource.Attribute.contentPadding = global::Envelope.Droid.Resource.Attribute.contentPadding;
+			global::ImageButton.Android.Resource.Attribute.contentPaddingBottom = global::Envelope.Droid.Resource.Attribute.contentPaddingBottom;
+			global::ImageButton.Android.Resource.Attribute.contentPaddingLeft = global::Envelope.Droid.Resource.Attribute.contentPaddingLeft;
+			global::ImageButton.Android.Resource.Attribute.contentPaddingRight = global::Envelope.Droid.Resource.Attribute.contentPaddingRight;
+			global::ImageButton.Android.Resource.Attribute.contentPaddingTop = global::Envelope.Droid.Resource.Attribute.contentPaddingTop;
+			global::ImageButton.Android.Resource.Attribute.contentScrim = global::Envelope.Droid.Resource.Attribute.contentScrim;
+			global::ImageButton.Android.Resource.Attribute.controlBackground = global::Envelope.Droid.Resource.Attribute.controlBackground;
+			global::ImageButton.Android.Resource.Attribute.counterEnabled = global::Envelope.Droid.Resource.Attribute.counterEnabled;
+			global::ImageButton.Android.Resource.Attribute.counterMaxLength = global::Envelope.Droid.Resource.Attribute.counterMaxLength;
+			global::ImageButton.Android.Resource.Attribute.counterOverflowTextAppearance = global::Envelope.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.counterTextAppearance = global::Envelope.Droid.Resource.Attribute.counterTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.customNavigationLayout = global::Envelope.Droid.Resource.Attribute.customNavigationLayout;
+			global::ImageButton.Android.Resource.Attribute.defaultQueryHint = global::Envelope.Droid.Resource.Attribute.defaultQueryHint;
+			global::ImageButton.Android.Resource.Attribute.dialogPreferredPadding = global::Envelope.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::ImageButton.Android.Resource.Attribute.dialogTheme = global::Envelope.Droid.Resource.Attribute.dialogTheme;
+			global::ImageButton.Android.Resource.Attribute.displayOptions = global::Envelope.Droid.Resource.Attribute.displayOptions;
+			global::ImageButton.Android.Resource.Attribute.divider = global::Envelope.Droid.Resource.Attribute.divider;
+			global::ImageButton.Android.Resource.Attribute.dividerHorizontal = global::Envelope.Droid.Resource.Attribute.dividerHorizontal;
+			global::ImageButton.Android.Resource.Attribute.dividerPadding = global::Envelope.Droid.Resource.Attribute.dividerPadding;
+			global::ImageButton.Android.Resource.Attribute.dividerVertical = global::Envelope.Droid.Resource.Attribute.dividerVertical;
+			global::ImageButton.Android.Resource.Attribute.drawableSize = global::Envelope.Droid.Resource.Attribute.drawableSize;
+			global::ImageButton.Android.Resource.Attribute.drawerArrowStyle = global::Envelope.Droid.Resource.Attribute.drawerArrowStyle;
+			global::ImageButton.Android.Resource.Attribute.dropDownListViewStyle = global::Envelope.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::ImageButton.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::Envelope.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::ImageButton.Android.Resource.Attribute.editTextBackground = global::Envelope.Droid.Resource.Attribute.editTextBackground;
+			global::ImageButton.Android.Resource.Attribute.editTextColor = global::Envelope.Droid.Resource.Attribute.editTextColor;
+			global::ImageButton.Android.Resource.Attribute.editTextStyle = global::Envelope.Droid.Resource.Attribute.editTextStyle;
+			global::ImageButton.Android.Resource.Attribute.elevation = global::Envelope.Droid.Resource.Attribute.elevation;
+			global::ImageButton.Android.Resource.Attribute.errorEnabled = global::Envelope.Droid.Resource.Attribute.errorEnabled;
+			global::ImageButton.Android.Resource.Attribute.errorTextAppearance = global::Envelope.Droid.Resource.Attribute.errorTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Envelope.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::ImageButton.Android.Resource.Attribute.expanded = global::Envelope.Droid.Resource.Attribute.expanded;
+			global::ImageButton.Android.Resource.Attribute.expandedTitleGravity = global::Envelope.Droid.Resource.Attribute.expandedTitleGravity;
+			global::ImageButton.Android.Resource.Attribute.expandedTitleMargin = global::Envelope.Droid.Resource.Attribute.expandedTitleMargin;
+			global::ImageButton.Android.Resource.Attribute.expandedTitleMarginBottom = global::Envelope.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::ImageButton.Android.Resource.Attribute.expandedTitleMarginEnd = global::Envelope.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::ImageButton.Android.Resource.Attribute.expandedTitleMarginStart = global::Envelope.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::ImageButton.Android.Resource.Attribute.expandedTitleMarginTop = global::Envelope.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::ImageButton.Android.Resource.Attribute.expandedTitleTextAppearance = global::Envelope.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.externalRouteEnabledDrawable = global::Envelope.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::ImageButton.Android.Resource.Attribute.fabSize = global::Envelope.Droid.Resource.Attribute.fabSize;
+			global::ImageButton.Android.Resource.Attribute.foregroundInsidePadding = global::Envelope.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::ImageButton.Android.Resource.Attribute.gapBetweenBars = global::Envelope.Droid.Resource.Attribute.gapBetweenBars;
+			global::ImageButton.Android.Resource.Attribute.goIcon = global::Envelope.Droid.Resource.Attribute.goIcon;
+			global::ImageButton.Android.Resource.Attribute.headerLayout = global::Envelope.Droid.Resource.Attribute.headerLayout;
+			global::ImageButton.Android.Resource.Attribute.height = global::Envelope.Droid.Resource.Attribute.height;
+			global::ImageButton.Android.Resource.Attribute.hideOnContentScroll = global::Envelope.Droid.Resource.Attribute.hideOnContentScroll;
+			global::ImageButton.Android.Resource.Attribute.hintAnimationEnabled = global::Envelope.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::ImageButton.Android.Resource.Attribute.hintEnabled = global::Envelope.Droid.Resource.Attribute.hintEnabled;
+			global::ImageButton.Android.Resource.Attribute.hintTextAppearance = global::Envelope.Droid.Resource.Attribute.hintTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.homeAsUpIndicator = global::Envelope.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::ImageButton.Android.Resource.Attribute.homeLayout = global::Envelope.Droid.Resource.Attribute.homeLayout;
+			global::ImageButton.Android.Resource.Attribute.icon = global::Envelope.Droid.Resource.Attribute.icon;
+			global::ImageButton.Android.Resource.Attribute.iconifiedByDefault = global::Envelope.Droid.Resource.Attribute.iconifiedByDefault;
+			global::ImageButton.Android.Resource.Attribute.imageButtonStyle = global::Envelope.Droid.Resource.Attribute.imageButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.indeterminateProgressStyle = global::Envelope.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::ImageButton.Android.Resource.Attribute.initialActivityCount = global::Envelope.Droid.Resource.Attribute.initialActivityCount;
+			global::ImageButton.Android.Resource.Attribute.insetForeground = global::Envelope.Droid.Resource.Attribute.insetForeground;
+			global::ImageButton.Android.Resource.Attribute.isLightTheme = global::Envelope.Droid.Resource.Attribute.isLightTheme;
+			global::ImageButton.Android.Resource.Attribute.itemBackground = global::Envelope.Droid.Resource.Attribute.itemBackground;
+			global::ImageButton.Android.Resource.Attribute.itemIconTint = global::Envelope.Droid.Resource.Attribute.itemIconTint;
+			global::ImageButton.Android.Resource.Attribute.itemPadding = global::Envelope.Droid.Resource.Attribute.itemPadding;
+			global::ImageButton.Android.Resource.Attribute.itemTextAppearance = global::Envelope.Droid.Resource.Attribute.itemTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.itemTextColor = global::Envelope.Droid.Resource.Attribute.itemTextColor;
+			global::ImageButton.Android.Resource.Attribute.keylines = global::Envelope.Droid.Resource.Attribute.keylines;
+			global::ImageButton.Android.Resource.Attribute.layout = global::Envelope.Droid.Resource.Attribute.layout;
+			global::ImageButton.Android.Resource.Attribute.layoutManager = global::Envelope.Droid.Resource.Attribute.layoutManager;
+			global::ImageButton.Android.Resource.Attribute.layout_anchor = global::Envelope.Droid.Resource.Attribute.layout_anchor;
+			global::ImageButton.Android.Resource.Attribute.layout_anchorGravity = global::Envelope.Droid.Resource.Attribute.layout_anchorGravity;
+			global::ImageButton.Android.Resource.Attribute.layout_behavior = global::Envelope.Droid.Resource.Attribute.layout_behavior;
+			global::ImageButton.Android.Resource.Attribute.layout_collapseMode = global::Envelope.Droid.Resource.Attribute.layout_collapseMode;
+			global::ImageButton.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::Envelope.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::ImageButton.Android.Resource.Attribute.layout_keyline = global::Envelope.Droid.Resource.Attribute.layout_keyline;
+			global::ImageButton.Android.Resource.Attribute.layout_scrollFlags = global::Envelope.Droid.Resource.Attribute.layout_scrollFlags;
+			global::ImageButton.Android.Resource.Attribute.layout_scrollInterpolator = global::Envelope.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::ImageButton.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::Envelope.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::ImageButton.Android.Resource.Attribute.listDividerAlertDialog = global::Envelope.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::ImageButton.Android.Resource.Attribute.listItemLayout = global::Envelope.Droid.Resource.Attribute.listItemLayout;
+			global::ImageButton.Android.Resource.Attribute.listLayout = global::Envelope.Droid.Resource.Attribute.listLayout;
+			global::ImageButton.Android.Resource.Attribute.listPopupWindowStyle = global::Envelope.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::ImageButton.Android.Resource.Attribute.listPreferredItemHeight = global::Envelope.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::ImageButton.Android.Resource.Attribute.listPreferredItemHeightLarge = global::Envelope.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::ImageButton.Android.Resource.Attribute.listPreferredItemHeightSmall = global::Envelope.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::ImageButton.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::Envelope.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::ImageButton.Android.Resource.Attribute.listPreferredItemPaddingRight = global::Envelope.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::ImageButton.Android.Resource.Attribute.logo = global::Envelope.Droid.Resource.Attribute.logo;
+			global::ImageButton.Android.Resource.Attribute.logoDescription = global::Envelope.Droid.Resource.Attribute.logoDescription;
+			global::ImageButton.Android.Resource.Attribute.maxActionInlineWidth = global::Envelope.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::ImageButton.Android.Resource.Attribute.maxButtonHeight = global::Envelope.Droid.Resource.Attribute.maxButtonHeight;
+			global::ImageButton.Android.Resource.Attribute.measureWithLargestChild = global::Envelope.Droid.Resource.Attribute.measureWithLargestChild;
+			global::ImageButton.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::Envelope.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::ImageButton.Android.Resource.Attribute.mediaRouteButtonStyle = global::Envelope.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.mediaRouteCloseDrawable = global::Envelope.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::ImageButton.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::Envelope.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::ImageButton.Android.Resource.Attribute.mediaRoutePauseDrawable = global::Envelope.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::ImageButton.Android.Resource.Attribute.mediaRoutePlayDrawable = global::Envelope.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::ImageButton.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::Envelope.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::ImageButton.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::Envelope.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::ImageButton.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::Envelope.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::ImageButton.Android.Resource.Attribute.menu = global::Envelope.Droid.Resource.Attribute.menu;
+			global::ImageButton.Android.Resource.Attribute.multiChoiceItemLayout = global::Envelope.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::ImageButton.Android.Resource.Attribute.navigationContentDescription = global::Envelope.Droid.Resource.Attribute.navigationContentDescription;
+			global::ImageButton.Android.Resource.Attribute.navigationIcon = global::Envelope.Droid.Resource.Attribute.navigationIcon;
+			global::ImageButton.Android.Resource.Attribute.navigationMode = global::Envelope.Droid.Resource.Attribute.navigationMode;
+			global::ImageButton.Android.Resource.Attribute.overlapAnchor = global::Envelope.Droid.Resource.Attribute.overlapAnchor;
+			global::ImageButton.Android.Resource.Attribute.paddingEnd = global::Envelope.Droid.Resource.Attribute.paddingEnd;
+			global::ImageButton.Android.Resource.Attribute.paddingStart = global::Envelope.Droid.Resource.Attribute.paddingStart;
+			global::ImageButton.Android.Resource.Attribute.panelBackground = global::Envelope.Droid.Resource.Attribute.panelBackground;
+			global::ImageButton.Android.Resource.Attribute.panelMenuListTheme = global::Envelope.Droid.Resource.Attribute.panelMenuListTheme;
+			global::ImageButton.Android.Resource.Attribute.panelMenuListWidth = global::Envelope.Droid.Resource.Attribute.panelMenuListWidth;
+			global::ImageButton.Android.Resource.Attribute.popupMenuStyle = global::Envelope.Droid.Resource.Attribute.popupMenuStyle;
+			global::ImageButton.Android.Resource.Attribute.popupTheme = global::Envelope.Droid.Resource.Attribute.popupTheme;
+			global::ImageButton.Android.Resource.Attribute.popupWindowStyle = global::Envelope.Droid.Resource.Attribute.popupWindowStyle;
+			global::ImageButton.Android.Resource.Attribute.preserveIconSpacing = global::Envelope.Droid.Resource.Attribute.preserveIconSpacing;
+			global::ImageButton.Android.Resource.Attribute.pressedTranslationZ = global::Envelope.Droid.Resource.Attribute.pressedTranslationZ;
+			global::ImageButton.Android.Resource.Attribute.progressBarPadding = global::Envelope.Droid.Resource.Attribute.progressBarPadding;
+			global::ImageButton.Android.Resource.Attribute.progressBarStyle = global::Envelope.Droid.Resource.Attribute.progressBarStyle;
+			global::ImageButton.Android.Resource.Attribute.queryBackground = global::Envelope.Droid.Resource.Attribute.queryBackground;
+			global::ImageButton.Android.Resource.Attribute.queryHint = global::Envelope.Droid.Resource.Attribute.queryHint;
+			global::ImageButton.Android.Resource.Attribute.radioButtonStyle = global::Envelope.Droid.Resource.Attribute.radioButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.ratingBarStyle = global::Envelope.Droid.Resource.Attribute.ratingBarStyle;
+			global::ImageButton.Android.Resource.Attribute.ratingBarStyleIndicator = global::Envelope.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::ImageButton.Android.Resource.Attribute.ratingBarStyleSmall = global::Envelope.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::ImageButton.Android.Resource.Attribute.reverseLayout = global::Envelope.Droid.Resource.Attribute.reverseLayout;
+			global::ImageButton.Android.Resource.Attribute.rippleColor = global::Envelope.Droid.Resource.Attribute.rippleColor;
+			global::ImageButton.Android.Resource.Attribute.searchHintIcon = global::Envelope.Droid.Resource.Attribute.searchHintIcon;
+			global::ImageButton.Android.Resource.Attribute.searchIcon = global::Envelope.Droid.Resource.Attribute.searchIcon;
+			global::ImageButton.Android.Resource.Attribute.searchViewStyle = global::Envelope.Droid.Resource.Attribute.searchViewStyle;
+			global::ImageButton.Android.Resource.Attribute.seekBarStyle = global::Envelope.Droid.Resource.Attribute.seekBarStyle;
+			global::ImageButton.Android.Resource.Attribute.selectableItemBackground = global::Envelope.Droid.Resource.Attribute.selectableItemBackground;
+			global::ImageButton.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::Envelope.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::ImageButton.Android.Resource.Attribute.showAsAction = global::Envelope.Droid.Resource.Attribute.showAsAction;
+			global::ImageButton.Android.Resource.Attribute.showDividers = global::Envelope.Droid.Resource.Attribute.showDividers;
+			global::ImageButton.Android.Resource.Attribute.showText = global::Envelope.Droid.Resource.Attribute.showText;
+			global::ImageButton.Android.Resource.Attribute.singleChoiceItemLayout = global::Envelope.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::ImageButton.Android.Resource.Attribute.spanCount = global::Envelope.Droid.Resource.Attribute.spanCount;
+			global::ImageButton.Android.Resource.Attribute.spinBars = global::Envelope.Droid.Resource.Attribute.spinBars;
+			global::ImageButton.Android.Resource.Attribute.spinnerDropDownItemStyle = global::Envelope.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::ImageButton.Android.Resource.Attribute.spinnerStyle = global::Envelope.Droid.Resource.Attribute.spinnerStyle;
+			global::ImageButton.Android.Resource.Attribute.splitTrack = global::Envelope.Droid.Resource.Attribute.splitTrack;
+			global::ImageButton.Android.Resource.Attribute.srcCompat = global::Envelope.Droid.Resource.Attribute.srcCompat;
+			global::ImageButton.Android.Resource.Attribute.stackFromEnd = global::Envelope.Droid.Resource.Attribute.stackFromEnd;
+			global::ImageButton.Android.Resource.Attribute.state_above_anchor = global::Envelope.Droid.Resource.Attribute.state_above_anchor;
+			global::ImageButton.Android.Resource.Attribute.statusBarBackground = global::Envelope.Droid.Resource.Attribute.statusBarBackground;
+			global::ImageButton.Android.Resource.Attribute.statusBarScrim = global::Envelope.Droid.Resource.Attribute.statusBarScrim;
+			global::ImageButton.Android.Resource.Attribute.submitBackground = global::Envelope.Droid.Resource.Attribute.submitBackground;
+			global::ImageButton.Android.Resource.Attribute.subtitle = global::Envelope.Droid.Resource.Attribute.subtitle;
+			global::ImageButton.Android.Resource.Attribute.subtitleTextAppearance = global::Envelope.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.subtitleTextColor = global::Envelope.Droid.Resource.Attribute.subtitleTextColor;
+			global::ImageButton.Android.Resource.Attribute.subtitleTextStyle = global::Envelope.Droid.Resource.Attribute.subtitleTextStyle;
+			global::ImageButton.Android.Resource.Attribute.suggestionRowLayout = global::Envelope.Droid.Resource.Attribute.suggestionRowLayout;
+			global::ImageButton.Android.Resource.Attribute.switchMinWidth = global::Envelope.Droid.Resource.Attribute.switchMinWidth;
+			global::ImageButton.Android.Resource.Attribute.switchPadding = global::Envelope.Droid.Resource.Attribute.switchPadding;
+			global::ImageButton.Android.Resource.Attribute.switchStyle = global::Envelope.Droid.Resource.Attribute.switchStyle;
+			global::ImageButton.Android.Resource.Attribute.switchTextAppearance = global::Envelope.Droid.Resource.Attribute.switchTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.tabBackground = global::Envelope.Droid.Resource.Attribute.tabBackground;
+			global::ImageButton.Android.Resource.Attribute.tabContentStart = global::Envelope.Droid.Resource.Attribute.tabContentStart;
+			global::ImageButton.Android.Resource.Attribute.tabGravity = global::Envelope.Droid.Resource.Attribute.tabGravity;
+			global::ImageButton.Android.Resource.Attribute.tabIndicatorColor = global::Envelope.Droid.Resource.Attribute.tabIndicatorColor;
+			global::ImageButton.Android.Resource.Attribute.tabIndicatorHeight = global::Envelope.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::ImageButton.Android.Resource.Attribute.tabMaxWidth = global::Envelope.Droid.Resource.Attribute.tabMaxWidth;
+			global::ImageButton.Android.Resource.Attribute.tabMinWidth = global::Envelope.Droid.Resource.Attribute.tabMinWidth;
+			global::ImageButton.Android.Resource.Attribute.tabMode = global::Envelope.Droid.Resource.Attribute.tabMode;
+			global::ImageButton.Android.Resource.Attribute.tabPadding = global::Envelope.Droid.Resource.Attribute.tabPadding;
+			global::ImageButton.Android.Resource.Attribute.tabPaddingBottom = global::Envelope.Droid.Resource.Attribute.tabPaddingBottom;
+			global::ImageButton.Android.Resource.Attribute.tabPaddingEnd = global::Envelope.Droid.Resource.Attribute.tabPaddingEnd;
+			global::ImageButton.Android.Resource.Attribute.tabPaddingStart = global::Envelope.Droid.Resource.Attribute.tabPaddingStart;
+			global::ImageButton.Android.Resource.Attribute.tabPaddingTop = global::Envelope.Droid.Resource.Attribute.tabPaddingTop;
+			global::ImageButton.Android.Resource.Attribute.tabSelectedTextColor = global::Envelope.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::ImageButton.Android.Resource.Attribute.tabTextAppearance = global::Envelope.Droid.Resource.Attribute.tabTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.tabTextColor = global::Envelope.Droid.Resource.Attribute.tabTextColor;
+			global::ImageButton.Android.Resource.Attribute.textAllCaps = global::Envelope.Droid.Resource.Attribute.textAllCaps;
+			global::ImageButton.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::Envelope.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::ImageButton.Android.Resource.Attribute.textAppearanceListItem = global::Envelope.Droid.Resource.Attribute.textAppearanceListItem;
+			global::ImageButton.Android.Resource.Attribute.textAppearanceListItemSmall = global::Envelope.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::ImageButton.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Envelope.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::ImageButton.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::Envelope.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::ImageButton.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::Envelope.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::ImageButton.Android.Resource.Attribute.textColorAlertDialogListItem = global::Envelope.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::ImageButton.Android.Resource.Attribute.textColorError = global::Envelope.Droid.Resource.Attribute.textColorError;
+			global::ImageButton.Android.Resource.Attribute.textColorSearchUrl = global::Envelope.Droid.Resource.Attribute.textColorSearchUrl;
+			global::ImageButton.Android.Resource.Attribute.theme = global::Envelope.Droid.Resource.Attribute.theme;
+			global::ImageButton.Android.Resource.Attribute.thickness = global::Envelope.Droid.Resource.Attribute.thickness;
+			global::ImageButton.Android.Resource.Attribute.thumbTextPadding = global::Envelope.Droid.Resource.Attribute.thumbTextPadding;
+			global::ImageButton.Android.Resource.Attribute.title = global::Envelope.Droid.Resource.Attribute.title;
+			global::ImageButton.Android.Resource.Attribute.titleEnabled = global::Envelope.Droid.Resource.Attribute.titleEnabled;
+			global::ImageButton.Android.Resource.Attribute.titleMarginBottom = global::Envelope.Droid.Resource.Attribute.titleMarginBottom;
+			global::ImageButton.Android.Resource.Attribute.titleMarginEnd = global::Envelope.Droid.Resource.Attribute.titleMarginEnd;
+			global::ImageButton.Android.Resource.Attribute.titleMarginStart = global::Envelope.Droid.Resource.Attribute.titleMarginStart;
+			global::ImageButton.Android.Resource.Attribute.titleMarginTop = global::Envelope.Droid.Resource.Attribute.titleMarginTop;
+			global::ImageButton.Android.Resource.Attribute.titleMargins = global::Envelope.Droid.Resource.Attribute.titleMargins;
+			global::ImageButton.Android.Resource.Attribute.titleTextAppearance = global::Envelope.Droid.Resource.Attribute.titleTextAppearance;
+			global::ImageButton.Android.Resource.Attribute.titleTextColor = global::Envelope.Droid.Resource.Attribute.titleTextColor;
+			global::ImageButton.Android.Resource.Attribute.titleTextStyle = global::Envelope.Droid.Resource.Attribute.titleTextStyle;
+			global::ImageButton.Android.Resource.Attribute.toolbarId = global::Envelope.Droid.Resource.Attribute.toolbarId;
+			global::ImageButton.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::Envelope.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::ImageButton.Android.Resource.Attribute.toolbarStyle = global::Envelope.Droid.Resource.Attribute.toolbarStyle;
+			global::ImageButton.Android.Resource.Attribute.track = global::Envelope.Droid.Resource.Attribute.track;
+			global::ImageButton.Android.Resource.Attribute.useCompatPadding = global::Envelope.Droid.Resource.Attribute.useCompatPadding;
+			global::ImageButton.Android.Resource.Attribute.voiceIcon = global::Envelope.Droid.Resource.Attribute.voiceIcon;
+			global::ImageButton.Android.Resource.Attribute.windowActionBar = global::Envelope.Droid.Resource.Attribute.windowActionBar;
+			global::ImageButton.Android.Resource.Attribute.windowActionBarOverlay = global::Envelope.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::ImageButton.Android.Resource.Attribute.windowActionModeOverlay = global::Envelope.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::ImageButton.Android.Resource.Attribute.windowFixedHeightMajor = global::Envelope.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::ImageButton.Android.Resource.Attribute.windowFixedHeightMinor = global::Envelope.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::ImageButton.Android.Resource.Attribute.windowFixedWidthMajor = global::Envelope.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::ImageButton.Android.Resource.Attribute.windowFixedWidthMinor = global::Envelope.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::ImageButton.Android.Resource.Attribute.windowMinWidthMajor = global::Envelope.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::ImageButton.Android.Resource.Attribute.windowMinWidthMinor = global::Envelope.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::ImageButton.Android.Resource.Attribute.windowNoTitle = global::Envelope.Droid.Resource.Attribute.windowNoTitle;
+			global::ImageButton.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::Envelope.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::ImageButton.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::Envelope.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::ImageButton.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Envelope.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::ImageButton.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Envelope.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::ImageButton.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Envelope.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::ImageButton.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Envelope.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::ImageButton.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::Envelope.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::ImageButton.Android.Resource.Color.abc_color_highlight_material = global::Envelope.Droid.Resource.Color.abc_color_highlight_material;
+			global::ImageButton.Android.Resource.Color.abc_input_method_navigation_guard = global::Envelope.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::ImageButton.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::Envelope.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::ImageButton.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::Envelope.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::ImageButton.Android.Resource.Color.abc_primary_text_material_dark = global::Envelope.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::ImageButton.Android.Resource.Color.abc_primary_text_material_light = global::Envelope.Droid.Resource.Color.abc_primary_text_material_light;
+			global::ImageButton.Android.Resource.Color.abc_search_url_text = global::Envelope.Droid.Resource.Color.abc_search_url_text;
+			global::ImageButton.Android.Resource.Color.abc_search_url_text_normal = global::Envelope.Droid.Resource.Color.abc_search_url_text_normal;
+			global::ImageButton.Android.Resource.Color.abc_search_url_text_pressed = global::Envelope.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::ImageButton.Android.Resource.Color.abc_search_url_text_selected = global::Envelope.Droid.Resource.Color.abc_search_url_text_selected;
+			global::ImageButton.Android.Resource.Color.abc_secondary_text_material_dark = global::Envelope.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::ImageButton.Android.Resource.Color.abc_secondary_text_material_light = global::Envelope.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::ImageButton.Android.Resource.Color.accent_material_dark = global::Envelope.Droid.Resource.Color.accent_material_dark;
+			global::ImageButton.Android.Resource.Color.accent_material_light = global::Envelope.Droid.Resource.Color.accent_material_light;
+			global::ImageButton.Android.Resource.Color.background_floating_material_dark = global::Envelope.Droid.Resource.Color.background_floating_material_dark;
+			global::ImageButton.Android.Resource.Color.background_floating_material_light = global::Envelope.Droid.Resource.Color.background_floating_material_light;
+			global::ImageButton.Android.Resource.Color.background_material_dark = global::Envelope.Droid.Resource.Color.background_material_dark;
+			global::ImageButton.Android.Resource.Color.background_material_light = global::Envelope.Droid.Resource.Color.background_material_light;
+			global::ImageButton.Android.Resource.Color.bright_foreground_disabled_material_dark = global::Envelope.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::ImageButton.Android.Resource.Color.bright_foreground_disabled_material_light = global::Envelope.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::ImageButton.Android.Resource.Color.bright_foreground_inverse_material_dark = global::Envelope.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::ImageButton.Android.Resource.Color.bright_foreground_inverse_material_light = global::Envelope.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::ImageButton.Android.Resource.Color.bright_foreground_material_dark = global::Envelope.Droid.Resource.Color.bright_foreground_material_dark;
+			global::ImageButton.Android.Resource.Color.bright_foreground_material_light = global::Envelope.Droid.Resource.Color.bright_foreground_material_light;
+			global::ImageButton.Android.Resource.Color.button_material_dark = global::Envelope.Droid.Resource.Color.button_material_dark;
+			global::ImageButton.Android.Resource.Color.button_material_light = global::Envelope.Droid.Resource.Color.button_material_light;
+			global::ImageButton.Android.Resource.Color.cardview_dark_background = global::Envelope.Droid.Resource.Color.cardview_dark_background;
+			global::ImageButton.Android.Resource.Color.cardview_light_background = global::Envelope.Droid.Resource.Color.cardview_light_background;
+			global::ImageButton.Android.Resource.Color.cardview_shadow_end_color = global::Envelope.Droid.Resource.Color.cardview_shadow_end_color;
+			global::ImageButton.Android.Resource.Color.cardview_shadow_start_color = global::Envelope.Droid.Resource.Color.cardview_shadow_start_color;
+			global::ImageButton.Android.Resource.Color.design_fab_shadow_end_color = global::Envelope.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::ImageButton.Android.Resource.Color.design_fab_shadow_mid_color = global::Envelope.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::ImageButton.Android.Resource.Color.design_fab_shadow_start_color = global::Envelope.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::ImageButton.Android.Resource.Color.design_fab_stroke_end_inner_color = global::Envelope.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::ImageButton.Android.Resource.Color.design_fab_stroke_end_outer_color = global::Envelope.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::ImageButton.Android.Resource.Color.design_fab_stroke_top_inner_color = global::Envelope.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::ImageButton.Android.Resource.Color.design_fab_stroke_top_outer_color = global::Envelope.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::ImageButton.Android.Resource.Color.design_snackbar_background_color = global::Envelope.Droid.Resource.Color.design_snackbar_background_color;
+			global::ImageButton.Android.Resource.Color.design_textinput_error_color_dark = global::Envelope.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::ImageButton.Android.Resource.Color.design_textinput_error_color_light = global::Envelope.Droid.Resource.Color.design_textinput_error_color_light;
+			global::ImageButton.Android.Resource.Color.dim_foreground_disabled_material_dark = global::Envelope.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::ImageButton.Android.Resource.Color.dim_foreground_disabled_material_light = global::Envelope.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::ImageButton.Android.Resource.Color.dim_foreground_material_dark = global::Envelope.Droid.Resource.Color.dim_foreground_material_dark;
+			global::ImageButton.Android.Resource.Color.dim_foreground_material_light = global::Envelope.Droid.Resource.Color.dim_foreground_material_light;
+			global::ImageButton.Android.Resource.Color.foreground_material_dark = global::Envelope.Droid.Resource.Color.foreground_material_dark;
+			global::ImageButton.Android.Resource.Color.foreground_material_light = global::Envelope.Droid.Resource.Color.foreground_material_light;
+			global::ImageButton.Android.Resource.Color.highlighted_text_material_dark = global::Envelope.Droid.Resource.Color.highlighted_text_material_dark;
+			global::ImageButton.Android.Resource.Color.highlighted_text_material_light = global::Envelope.Droid.Resource.Color.highlighted_text_material_light;
+			global::ImageButton.Android.Resource.Color.material_blue_grey_800 = global::Envelope.Droid.Resource.Color.material_blue_grey_800;
+			global::ImageButton.Android.Resource.Color.material_blue_grey_900 = global::Envelope.Droid.Resource.Color.material_blue_grey_900;
+			global::ImageButton.Android.Resource.Color.material_blue_grey_950 = global::Envelope.Droid.Resource.Color.material_blue_grey_950;
+			global::ImageButton.Android.Resource.Color.material_deep_teal_200 = global::Envelope.Droid.Resource.Color.material_deep_teal_200;
+			global::ImageButton.Android.Resource.Color.material_deep_teal_500 = global::Envelope.Droid.Resource.Color.material_deep_teal_500;
+			global::ImageButton.Android.Resource.Color.material_grey_100 = global::Envelope.Droid.Resource.Color.material_grey_100;
+			global::ImageButton.Android.Resource.Color.material_grey_300 = global::Envelope.Droid.Resource.Color.material_grey_300;
+			global::ImageButton.Android.Resource.Color.material_grey_50 = global::Envelope.Droid.Resource.Color.material_grey_50;
+			global::ImageButton.Android.Resource.Color.material_grey_600 = global::Envelope.Droid.Resource.Color.material_grey_600;
+			global::ImageButton.Android.Resource.Color.material_grey_800 = global::Envelope.Droid.Resource.Color.material_grey_800;
+			global::ImageButton.Android.Resource.Color.material_grey_850 = global::Envelope.Droid.Resource.Color.material_grey_850;
+			global::ImageButton.Android.Resource.Color.material_grey_900 = global::Envelope.Droid.Resource.Color.material_grey_900;
+			global::ImageButton.Android.Resource.Color.primary_dark_material_dark = global::Envelope.Droid.Resource.Color.primary_dark_material_dark;
+			global::ImageButton.Android.Resource.Color.primary_dark_material_light = global::Envelope.Droid.Resource.Color.primary_dark_material_light;
+			global::ImageButton.Android.Resource.Color.primary_material_dark = global::Envelope.Droid.Resource.Color.primary_material_dark;
+			global::ImageButton.Android.Resource.Color.primary_material_light = global::Envelope.Droid.Resource.Color.primary_material_light;
+			global::ImageButton.Android.Resource.Color.primary_text_default_material_dark = global::Envelope.Droid.Resource.Color.primary_text_default_material_dark;
+			global::ImageButton.Android.Resource.Color.primary_text_default_material_light = global::Envelope.Droid.Resource.Color.primary_text_default_material_light;
+			global::ImageButton.Android.Resource.Color.primary_text_disabled_material_dark = global::Envelope.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::ImageButton.Android.Resource.Color.primary_text_disabled_material_light = global::Envelope.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::ImageButton.Android.Resource.Color.ripple_material_dark = global::Envelope.Droid.Resource.Color.ripple_material_dark;
+			global::ImageButton.Android.Resource.Color.ripple_material_light = global::Envelope.Droid.Resource.Color.ripple_material_light;
+			global::ImageButton.Android.Resource.Color.secondary_text_default_material_dark = global::Envelope.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::ImageButton.Android.Resource.Color.secondary_text_default_material_light = global::Envelope.Droid.Resource.Color.secondary_text_default_material_light;
+			global::ImageButton.Android.Resource.Color.secondary_text_disabled_material_dark = global::Envelope.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::ImageButton.Android.Resource.Color.secondary_text_disabled_material_light = global::Envelope.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::ImageButton.Android.Resource.Color.switch_thumb_disabled_material_dark = global::Envelope.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::ImageButton.Android.Resource.Color.switch_thumb_disabled_material_light = global::Envelope.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::ImageButton.Android.Resource.Color.switch_thumb_material_dark = global::Envelope.Droid.Resource.Color.switch_thumb_material_dark;
+			global::ImageButton.Android.Resource.Color.switch_thumb_material_light = global::Envelope.Droid.Resource.Color.switch_thumb_material_light;
+			global::ImageButton.Android.Resource.Color.switch_thumb_normal_material_dark = global::Envelope.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::ImageButton.Android.Resource.Color.switch_thumb_normal_material_light = global::Envelope.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::Envelope.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_default_height_material = global::Envelope.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Envelope.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Envelope.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Envelope.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Envelope.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Envelope.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::Envelope.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::Envelope.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Envelope.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Envelope.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Envelope.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_button_min_height_material = global::Envelope.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_button_min_width_material = global::Envelope.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::ImageButton.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Envelope.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::ImageButton.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Envelope.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::ImageButton.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::Envelope.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::ImageButton.Android.Resource.Dimension.abc_button_inset_vertical_material = global::Envelope.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::ImageButton.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::Envelope.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::ImageButton.Android.Resource.Dimension.abc_button_padding_vertical_material = global::Envelope.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::ImageButton.Android.Resource.Dimension.abc_config_prefDialogWidth = global::Envelope.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::ImageButton.Android.Resource.Dimension.abc_control_corner_material = global::Envelope.Droid.Resource.Dimension.abc_control_corner_material;
+			global::ImageButton.Android.Resource.Dimension.abc_control_inset_material = global::Envelope.Droid.Resource.Dimension.abc_control_inset_material;
+			global::ImageButton.Android.Resource.Dimension.abc_control_padding_material = global::Envelope.Droid.Resource.Dimension.abc_control_padding_material;
+			global::ImageButton.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::Envelope.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::ImageButton.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::Envelope.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::ImageButton.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::Envelope.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::ImageButton.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::Envelope.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::ImageButton.Android.Resource.Dimension.abc_dialog_min_width_major = global::Envelope.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::ImageButton.Android.Resource.Dimension.abc_dialog_min_width_minor = global::Envelope.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::ImageButton.Android.Resource.Dimension.abc_dialog_padding_material = global::Envelope.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::ImageButton.Android.Resource.Dimension.abc_dialog_padding_top_material = global::Envelope.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::ImageButton.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::Envelope.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::ImageButton.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::Envelope.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::ImageButton.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::Envelope.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::ImageButton.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Envelope.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::ImageButton.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Envelope.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::ImageButton.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Envelope.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::ImageButton.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Envelope.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::ImageButton.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::Envelope.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::ImageButton.Android.Resource.Dimension.abc_floating_window_z = global::Envelope.Droid.Resource.Dimension.abc_floating_window_z;
+			global::ImageButton.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Envelope.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::ImageButton.Android.Resource.Dimension.abc_panel_menu_list_width = global::Envelope.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::ImageButton.Android.Resource.Dimension.abc_search_view_preferred_width = global::Envelope.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::ImageButton.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::Envelope.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::ImageButton.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Envelope.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::ImageButton.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::Envelope.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::ImageButton.Android.Resource.Dimension.abc_switch_padding = global::Envelope.Droid.Resource.Dimension.abc_switch_padding;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_body_1_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_body_2_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_button_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_caption_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_display_1_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_display_2_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_display_3_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_display_4_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_headline_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_large_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_medium_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_menu_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_small_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_subhead_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Envelope.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_title_material = global::Envelope.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::ImageButton.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::Envelope.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::ImageButton.Android.Resource.Dimension.cardview_compat_inset_shadow = global::Envelope.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::ImageButton.Android.Resource.Dimension.cardview_default_elevation = global::Envelope.Droid.Resource.Dimension.cardview_default_elevation;
+			global::ImageButton.Android.Resource.Dimension.cardview_default_radius = global::Envelope.Droid.Resource.Dimension.cardview_default_radius;
+			global::ImageButton.Android.Resource.Dimension.design_appbar_elevation = global::Envelope.Droid.Resource.Dimension.design_appbar_elevation;
+			global::ImageButton.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Envelope.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::ImageButton.Android.Resource.Dimension.design_fab_border_width = global::Envelope.Droid.Resource.Dimension.design_fab_border_width;
+			global::ImageButton.Android.Resource.Dimension.design_fab_elevation = global::Envelope.Droid.Resource.Dimension.design_fab_elevation;
+			global::ImageButton.Android.Resource.Dimension.design_fab_image_size = global::Envelope.Droid.Resource.Dimension.design_fab_image_size;
+			global::ImageButton.Android.Resource.Dimension.design_fab_size_mini = global::Envelope.Droid.Resource.Dimension.design_fab_size_mini;
+			global::ImageButton.Android.Resource.Dimension.design_fab_size_normal = global::Envelope.Droid.Resource.Dimension.design_fab_size_normal;
+			global::ImageButton.Android.Resource.Dimension.design_fab_translation_z_pressed = global::Envelope.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::ImageButton.Android.Resource.Dimension.design_navigation_elevation = global::Envelope.Droid.Resource.Dimension.design_navigation_elevation;
+			global::ImageButton.Android.Resource.Dimension.design_navigation_icon_padding = global::Envelope.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::ImageButton.Android.Resource.Dimension.design_navigation_icon_size = global::Envelope.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::ImageButton.Android.Resource.Dimension.design_navigation_max_width = global::Envelope.Droid.Resource.Dimension.design_navigation_max_width;
+			global::ImageButton.Android.Resource.Dimension.design_navigation_padding_bottom = global::Envelope.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::ImageButton.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::Envelope.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::ImageButton.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::Envelope.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::ImageButton.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::Envelope.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::ImageButton.Android.Resource.Dimension.design_snackbar_elevation = global::Envelope.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::ImageButton.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Envelope.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::ImageButton.Android.Resource.Dimension.design_snackbar_max_width = global::Envelope.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::ImageButton.Android.Resource.Dimension.design_snackbar_min_width = global::Envelope.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::ImageButton.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::Envelope.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::ImageButton.Android.Resource.Dimension.design_snackbar_padding_vertical = global::Envelope.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::ImageButton.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Envelope.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::ImageButton.Android.Resource.Dimension.design_snackbar_text_size = global::Envelope.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::ImageButton.Android.Resource.Dimension.design_tab_max_width = global::Envelope.Droid.Resource.Dimension.design_tab_max_width;
+			global::ImageButton.Android.Resource.Dimension.design_tab_scrollable_min_width = global::Envelope.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::ImageButton.Android.Resource.Dimension.design_tab_text_size = global::Envelope.Droid.Resource.Dimension.design_tab_text_size;
+			global::ImageButton.Android.Resource.Dimension.design_tab_text_size_2line = global::Envelope.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::ImageButton.Android.Resource.Dimension.disabled_alpha_material_dark = global::Envelope.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::ImageButton.Android.Resource.Dimension.disabled_alpha_material_light = global::Envelope.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::ImageButton.Android.Resource.Dimension.highlight_alpha_material_colored = global::Envelope.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::ImageButton.Android.Resource.Dimension.highlight_alpha_material_dark = global::Envelope.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::ImageButton.Android.Resource.Dimension.highlight_alpha_material_light = global::Envelope.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::ImageButton.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Envelope.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::ImageButton.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Envelope.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::ImageButton.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Envelope.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::ImageButton.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::Envelope.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::ImageButton.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::Envelope.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::ImageButton.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::Envelope.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::ImageButton.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::Envelope.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::ImageButton.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::Envelope.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::ImageButton.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::Envelope.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::ImageButton.Android.Resource.Dimension.notification_large_icon_height = global::Envelope.Droid.Resource.Dimension.notification_large_icon_height;
+			global::ImageButton.Android.Resource.Dimension.notification_large_icon_width = global::Envelope.Droid.Resource.Dimension.notification_large_icon_width;
+			global::ImageButton.Android.Resource.Dimension.notification_subtext_size = global::Envelope.Droid.Resource.Dimension.notification_subtext_size;
+			global::ImageButton.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_action_bar_item_background_material = global::Envelope.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_borderless_material = global::Envelope.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_check_material = global::Envelope.Droid.Resource.Drawable.abc_btn_check_material;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Envelope.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Envelope.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_colored_material = global::Envelope.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::Envelope.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_radio_material = global::Envelope.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Envelope.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Envelope.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Envelope.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::ImageButton.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Envelope.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::ImageButton.Android.Resource.Drawable.abc_cab_background_internal_bg = global::Envelope.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::ImageButton.Android.Resource.Drawable.abc_cab_background_top_material = global::Envelope.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::ImageButton.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_control_background_material = global::Envelope.Droid.Resource.Drawable.abc_control_background_material;
+			global::ImageButton.Android.Resource.Drawable.abc_edit_text_material = global::Envelope.Droid.Resource.Drawable.abc_edit_text_material;
+			global::ImageButton.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Envelope.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Envelope.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_ic_star_black_16dp = global::Envelope.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::ImageButton.Android.Resource.Drawable.abc_ic_star_black_36dp = global::Envelope.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::ImageButton.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::Envelope.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::ImageButton.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::Envelope.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::ImageButton.Android.Resource.Drawable.abc_item_background_holo_dark = global::Envelope.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::ImageButton.Android.Resource.Drawable.abc_item_background_holo_light = global::Envelope.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::ImageButton.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_list_focused_holo = global::Envelope.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::ImageButton.Android.Resource.Drawable.abc_list_longpressed_holo = global::Envelope.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::ImageButton.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::Envelope.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::ImageButton.Android.Resource.Drawable.abc_list_pressed_holo_light = global::Envelope.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::ImageButton.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Envelope.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::ImageButton.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Envelope.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::ImageButton.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Envelope.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::ImageButton.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Envelope.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::ImageButton.Android.Resource.Drawable.abc_list_selector_holo_dark = global::Envelope.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::ImageButton.Android.Resource.Drawable.abc_list_selector_holo_light = global::Envelope.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::ImageButton.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Envelope.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::ImageButton.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::Envelope.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::ImageButton.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::Envelope.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::ImageButton.Android.Resource.Drawable.abc_ratingbar_small_material = global::Envelope.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::ImageButton.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Envelope.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::ImageButton.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Envelope.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::ImageButton.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_seekbar_thumb_material = global::Envelope.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::ImageButton.Android.Resource.Drawable.abc_seekbar_track_material = global::Envelope.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::ImageButton.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Envelope.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::Envelope.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::ImageButton.Android.Resource.Drawable.abc_switch_thumb_material = global::Envelope.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::ImageButton.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_tab_indicator_material = global::Envelope.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::ImageButton.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_text_cursor_material = global::Envelope.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::ImageButton.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Envelope.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::ImageButton.Android.Resource.Drawable.abc_textfield_search_material = global::Envelope.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::ImageButton.Android.Resource.Drawable.design_fab_background = global::Envelope.Droid.Resource.Drawable.design_fab_background;
+			global::ImageButton.Android.Resource.Drawable.design_snackbar_background = global::Envelope.Droid.Resource.Drawable.design_snackbar_background;
+			global::ImageButton.Android.Resource.Drawable.ic_audiotrack_light = global::Envelope.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::ImageButton.Android.Resource.Drawable.mr_dialog_material_background_dark = global::Envelope.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::ImageButton.Android.Resource.Drawable.mr_dialog_material_background_light = global::Envelope.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::ImageButton.Android.Resource.Drawable.notification_template_icon_bg = global::Envelope.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::ImageButton.Android.Resource.Id.action0 = global::Envelope.Droid.Resource.Id.action0;
+			global::ImageButton.Android.Resource.Id.action_bar = global::Envelope.Droid.Resource.Id.action_bar;
+			global::ImageButton.Android.Resource.Id.action_bar_activity_content = global::Envelope.Droid.Resource.Id.action_bar_activity_content;
+			global::ImageButton.Android.Resource.Id.action_bar_container = global::Envelope.Droid.Resource.Id.action_bar_container;
+			global::ImageButton.Android.Resource.Id.action_bar_root = global::Envelope.Droid.Resource.Id.action_bar_root;
+			global::ImageButton.Android.Resource.Id.action_bar_spinner = global::Envelope.Droid.Resource.Id.action_bar_spinner;
+			global::ImageButton.Android.Resource.Id.action_bar_subtitle = global::Envelope.Droid.Resource.Id.action_bar_subtitle;
+			global::ImageButton.Android.Resource.Id.action_bar_title = global::Envelope.Droid.Resource.Id.action_bar_title;
+			global::ImageButton.Android.Resource.Id.action_context_bar = global::Envelope.Droid.Resource.Id.action_context_bar;
+			global::ImageButton.Android.Resource.Id.action_divider = global::Envelope.Droid.Resource.Id.action_divider;
+			global::ImageButton.Android.Resource.Id.action_menu_divider = global::Envelope.Droid.Resource.Id.action_menu_divider;
+			global::ImageButton.Android.Resource.Id.action_menu_presenter = global::Envelope.Droid.Resource.Id.action_menu_presenter;
+			global::ImageButton.Android.Resource.Id.action_mode_bar = global::Envelope.Droid.Resource.Id.action_mode_bar;
+			global::ImageButton.Android.Resource.Id.action_mode_bar_stub = global::Envelope.Droid.Resource.Id.action_mode_bar_stub;
+			global::ImageButton.Android.Resource.Id.action_mode_close_button = global::Envelope.Droid.Resource.Id.action_mode_close_button;
+			global::ImageButton.Android.Resource.Id.activity_chooser_view_content = global::Envelope.Droid.Resource.Id.activity_chooser_view_content;
+			global::ImageButton.Android.Resource.Id.alertTitle = global::Envelope.Droid.Resource.Id.alertTitle;
+			global::ImageButton.Android.Resource.Id.always = global::Envelope.Droid.Resource.Id.always;
+			global::ImageButton.Android.Resource.Id.beginning = global::Envelope.Droid.Resource.Id.beginning;
+			global::ImageButton.Android.Resource.Id.bottom = global::Envelope.Droid.Resource.Id.bottom;
+			global::ImageButton.Android.Resource.Id.buttonPanel = global::Envelope.Droid.Resource.Id.buttonPanel;
+			global::ImageButton.Android.Resource.Id.cancel_action = global::Envelope.Droid.Resource.Id.cancel_action;
+			global::ImageButton.Android.Resource.Id.center = global::Envelope.Droid.Resource.Id.center;
+			global::ImageButton.Android.Resource.Id.center_horizontal = global::Envelope.Droid.Resource.Id.center_horizontal;
+			global::ImageButton.Android.Resource.Id.center_vertical = global::Envelope.Droid.Resource.Id.center_vertical;
+			global::ImageButton.Android.Resource.Id.checkbox = global::Envelope.Droid.Resource.Id.checkbox;
+			global::ImageButton.Android.Resource.Id.chronometer = global::Envelope.Droid.Resource.Id.chronometer;
+			global::ImageButton.Android.Resource.Id.clip_horizontal = global::Envelope.Droid.Resource.Id.clip_horizontal;
+			global::ImageButton.Android.Resource.Id.clip_vertical = global::Envelope.Droid.Resource.Id.clip_vertical;
+			global::ImageButton.Android.Resource.Id.collapseActionView = global::Envelope.Droid.Resource.Id.collapseActionView;
+			global::ImageButton.Android.Resource.Id.contentPanel = global::Envelope.Droid.Resource.Id.contentPanel;
+			global::ImageButton.Android.Resource.Id.custom = global::Envelope.Droid.Resource.Id.custom;
+			global::ImageButton.Android.Resource.Id.customPanel = global::Envelope.Droid.Resource.Id.customPanel;
+			global::ImageButton.Android.Resource.Id.decor_content_parent = global::Envelope.Droid.Resource.Id.decor_content_parent;
+			global::ImageButton.Android.Resource.Id.default_activity_button = global::Envelope.Droid.Resource.Id.default_activity_button;
+			global::ImageButton.Android.Resource.Id.design_bottom_sheet = global::Envelope.Droid.Resource.Id.design_bottom_sheet;
+			global::ImageButton.Android.Resource.Id.design_menu_item_action_area = global::Envelope.Droid.Resource.Id.design_menu_item_action_area;
+			global::ImageButton.Android.Resource.Id.design_menu_item_action_area_stub = global::Envelope.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::ImageButton.Android.Resource.Id.design_menu_item_text = global::Envelope.Droid.Resource.Id.design_menu_item_text;
+			global::ImageButton.Android.Resource.Id.design_navigation_view = global::Envelope.Droid.Resource.Id.design_navigation_view;
+			global::ImageButton.Android.Resource.Id.disableHome = global::Envelope.Droid.Resource.Id.disableHome;
+			global::ImageButton.Android.Resource.Id.edit_query = global::Envelope.Droid.Resource.Id.edit_query;
+			global::ImageButton.Android.Resource.Id.end = global::Envelope.Droid.Resource.Id.end;
+			global::ImageButton.Android.Resource.Id.end_padder = global::Envelope.Droid.Resource.Id.end_padder;
+			global::ImageButton.Android.Resource.Id.enterAlways = global::Envelope.Droid.Resource.Id.enterAlways;
+			global::ImageButton.Android.Resource.Id.enterAlwaysCollapsed = global::Envelope.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::ImageButton.Android.Resource.Id.exitUntilCollapsed = global::Envelope.Droid.Resource.Id.exitUntilCollapsed;
+			global::ImageButton.Android.Resource.Id.expand_activities_button = global::Envelope.Droid.Resource.Id.expand_activities_button;
+			global::ImageButton.Android.Resource.Id.expanded_menu = global::Envelope.Droid.Resource.Id.expanded_menu;
+			global::ImageButton.Android.Resource.Id.fill = global::Envelope.Droid.Resource.Id.fill;
+			global::ImageButton.Android.Resource.Id.fill_horizontal = global::Envelope.Droid.Resource.Id.fill_horizontal;
+			global::ImageButton.Android.Resource.Id.fill_vertical = global::Envelope.Droid.Resource.Id.fill_vertical;
+			global::ImageButton.Android.Resource.Id.@fixed = global::Envelope.Droid.Resource.Id.@fixed;
+			global::ImageButton.Android.Resource.Id.home = global::Envelope.Droid.Resource.Id.home;
+			global::ImageButton.Android.Resource.Id.homeAsUp = global::Envelope.Droid.Resource.Id.homeAsUp;
+			global::ImageButton.Android.Resource.Id.icon = global::Envelope.Droid.Resource.Id.icon;
+			global::ImageButton.Android.Resource.Id.ifRoom = global::Envelope.Droid.Resource.Id.ifRoom;
+			global::ImageButton.Android.Resource.Id.image = global::Envelope.Droid.Resource.Id.image;
+			global::ImageButton.Android.Resource.Id.info = global::Envelope.Droid.Resource.Id.info;
+			global::ImageButton.Android.Resource.Id.item_touch_helper_previous_elevation = global::Envelope.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::ImageButton.Android.Resource.Id.left = global::Envelope.Droid.Resource.Id.left;
+			global::ImageButton.Android.Resource.Id.line1 = global::Envelope.Droid.Resource.Id.line1;
+			global::ImageButton.Android.Resource.Id.line3 = global::Envelope.Droid.Resource.Id.line3;
+			global::ImageButton.Android.Resource.Id.listMode = global::Envelope.Droid.Resource.Id.listMode;
+			global::ImageButton.Android.Resource.Id.list_item = global::Envelope.Droid.Resource.Id.list_item;
+			global::ImageButton.Android.Resource.Id.media_actions = global::Envelope.Droid.Resource.Id.media_actions;
+			global::ImageButton.Android.Resource.Id.middle = global::Envelope.Droid.Resource.Id.middle;
+			global::ImageButton.Android.Resource.Id.mini = global::Envelope.Droid.Resource.Id.mini;
+			global::ImageButton.Android.Resource.Id.mr_art = global::Envelope.Droid.Resource.Id.mr_art;
+			global::ImageButton.Android.Resource.Id.mr_chooser_list = global::Envelope.Droid.Resource.Id.mr_chooser_list;
+			global::ImageButton.Android.Resource.Id.mr_chooser_route_desc = global::Envelope.Droid.Resource.Id.mr_chooser_route_desc;
+			global::ImageButton.Android.Resource.Id.mr_chooser_route_icon = global::Envelope.Droid.Resource.Id.mr_chooser_route_icon;
+			global::ImageButton.Android.Resource.Id.mr_chooser_route_name = global::Envelope.Droid.Resource.Id.mr_chooser_route_name;
+			global::ImageButton.Android.Resource.Id.mr_close = global::Envelope.Droid.Resource.Id.mr_close;
+			global::ImageButton.Android.Resource.Id.mr_control_divider = global::Envelope.Droid.Resource.Id.mr_control_divider;
+			global::ImageButton.Android.Resource.Id.mr_control_subtitle = global::Envelope.Droid.Resource.Id.mr_control_subtitle;
+			global::ImageButton.Android.Resource.Id.mr_control_title = global::Envelope.Droid.Resource.Id.mr_control_title;
+			global::ImageButton.Android.Resource.Id.mr_control_title_container = global::Envelope.Droid.Resource.Id.mr_control_title_container;
+			global::ImageButton.Android.Resource.Id.mr_custom_control = global::Envelope.Droid.Resource.Id.mr_custom_control;
+			global::ImageButton.Android.Resource.Id.mr_default_control = global::Envelope.Droid.Resource.Id.mr_default_control;
+			global::ImageButton.Android.Resource.Id.mr_dialog_area = global::Envelope.Droid.Resource.Id.mr_dialog_area;
+			global::ImageButton.Android.Resource.Id.mr_expandable_area = global::Envelope.Droid.Resource.Id.mr_expandable_area;
+			global::ImageButton.Android.Resource.Id.mr_group_expand_collapse = global::Envelope.Droid.Resource.Id.mr_group_expand_collapse;
+			global::ImageButton.Android.Resource.Id.mr_media_main_control = global::Envelope.Droid.Resource.Id.mr_media_main_control;
+			global::ImageButton.Android.Resource.Id.mr_name = global::Envelope.Droid.Resource.Id.mr_name;
+			global::ImageButton.Android.Resource.Id.mr_playback_control = global::Envelope.Droid.Resource.Id.mr_playback_control;
+			global::ImageButton.Android.Resource.Id.mr_title_bar = global::Envelope.Droid.Resource.Id.mr_title_bar;
+			global::ImageButton.Android.Resource.Id.mr_volume_control = global::Envelope.Droid.Resource.Id.mr_volume_control;
+			global::ImageButton.Android.Resource.Id.mr_volume_group_list = global::Envelope.Droid.Resource.Id.mr_volume_group_list;
+			global::ImageButton.Android.Resource.Id.mr_volume_item_icon = global::Envelope.Droid.Resource.Id.mr_volume_item_icon;
+			global::ImageButton.Android.Resource.Id.mr_volume_slider = global::Envelope.Droid.Resource.Id.mr_volume_slider;
+			global::ImageButton.Android.Resource.Id.multiply = global::Envelope.Droid.Resource.Id.multiply;
+			global::ImageButton.Android.Resource.Id.navigation_header_container = global::Envelope.Droid.Resource.Id.navigation_header_container;
+			global::ImageButton.Android.Resource.Id.never = global::Envelope.Droid.Resource.Id.never;
+			global::ImageButton.Android.Resource.Id.none = global::Envelope.Droid.Resource.Id.none;
+			global::ImageButton.Android.Resource.Id.normal = global::Envelope.Droid.Resource.Id.normal;
+			global::ImageButton.Android.Resource.Id.parallax = global::Envelope.Droid.Resource.Id.parallax;
+			global::ImageButton.Android.Resource.Id.parentPanel = global::Envelope.Droid.Resource.Id.parentPanel;
+			global::ImageButton.Android.Resource.Id.pin = global::Envelope.Droid.Resource.Id.pin;
+			global::ImageButton.Android.Resource.Id.progress_circular = global::Envelope.Droid.Resource.Id.progress_circular;
+			global::ImageButton.Android.Resource.Id.progress_horizontal = global::Envelope.Droid.Resource.Id.progress_horizontal;
+			global::ImageButton.Android.Resource.Id.radio = global::Envelope.Droid.Resource.Id.radio;
+			global::ImageButton.Android.Resource.Id.right = global::Envelope.Droid.Resource.Id.right;
+			global::ImageButton.Android.Resource.Id.screen = global::Envelope.Droid.Resource.Id.screen;
+			global::ImageButton.Android.Resource.Id.scroll = global::Envelope.Droid.Resource.Id.scroll;
+			global::ImageButton.Android.Resource.Id.scrollIndicatorDown = global::Envelope.Droid.Resource.Id.scrollIndicatorDown;
+			global::ImageButton.Android.Resource.Id.scrollIndicatorUp = global::Envelope.Droid.Resource.Id.scrollIndicatorUp;
+			global::ImageButton.Android.Resource.Id.scrollView = global::Envelope.Droid.Resource.Id.scrollView;
+			global::ImageButton.Android.Resource.Id.scrollable = global::Envelope.Droid.Resource.Id.scrollable;
+			global::ImageButton.Android.Resource.Id.search_badge = global::Envelope.Droid.Resource.Id.search_badge;
+			global::ImageButton.Android.Resource.Id.search_bar = global::Envelope.Droid.Resource.Id.search_bar;
+			global::ImageButton.Android.Resource.Id.search_button = global::Envelope.Droid.Resource.Id.search_button;
+			global::ImageButton.Android.Resource.Id.search_close_btn = global::Envelope.Droid.Resource.Id.search_close_btn;
+			global::ImageButton.Android.Resource.Id.search_edit_frame = global::Envelope.Droid.Resource.Id.search_edit_frame;
+			global::ImageButton.Android.Resource.Id.search_go_btn = global::Envelope.Droid.Resource.Id.search_go_btn;
+			global::ImageButton.Android.Resource.Id.search_mag_icon = global::Envelope.Droid.Resource.Id.search_mag_icon;
+			global::ImageButton.Android.Resource.Id.search_plate = global::Envelope.Droid.Resource.Id.search_plate;
+			global::ImageButton.Android.Resource.Id.search_src_text = global::Envelope.Droid.Resource.Id.search_src_text;
+			global::ImageButton.Android.Resource.Id.search_voice_btn = global::Envelope.Droid.Resource.Id.search_voice_btn;
+			global::ImageButton.Android.Resource.Id.select_dialog_listview = global::Envelope.Droid.Resource.Id.select_dialog_listview;
+			global::ImageButton.Android.Resource.Id.shortcut = global::Envelope.Droid.Resource.Id.shortcut;
+			global::ImageButton.Android.Resource.Id.showCustom = global::Envelope.Droid.Resource.Id.showCustom;
+			global::ImageButton.Android.Resource.Id.showHome = global::Envelope.Droid.Resource.Id.showHome;
+			global::ImageButton.Android.Resource.Id.showTitle = global::Envelope.Droid.Resource.Id.showTitle;
+			global::ImageButton.Android.Resource.Id.snackbar_action = global::Envelope.Droid.Resource.Id.snackbar_action;
+			global::ImageButton.Android.Resource.Id.snackbar_text = global::Envelope.Droid.Resource.Id.snackbar_text;
+			global::ImageButton.Android.Resource.Id.snap = global::Envelope.Droid.Resource.Id.snap;
+			global::ImageButton.Android.Resource.Id.spacer = global::Envelope.Droid.Resource.Id.spacer;
+			global::ImageButton.Android.Resource.Id.split_action_bar = global::Envelope.Droid.Resource.Id.split_action_bar;
+			global::ImageButton.Android.Resource.Id.src_atop = global::Envelope.Droid.Resource.Id.src_atop;
+			global::ImageButton.Android.Resource.Id.src_in = global::Envelope.Droid.Resource.Id.src_in;
+			global::ImageButton.Android.Resource.Id.src_over = global::Envelope.Droid.Resource.Id.src_over;
+			global::ImageButton.Android.Resource.Id.start = global::Envelope.Droid.Resource.Id.start;
+			global::ImageButton.Android.Resource.Id.status_bar_latest_event_content = global::Envelope.Droid.Resource.Id.status_bar_latest_event_content;
+			global::ImageButton.Android.Resource.Id.submit_area = global::Envelope.Droid.Resource.Id.submit_area;
+			global::ImageButton.Android.Resource.Id.tabMode = global::Envelope.Droid.Resource.Id.tabMode;
+			global::ImageButton.Android.Resource.Id.text = global::Envelope.Droid.Resource.Id.text;
+			global::ImageButton.Android.Resource.Id.text2 = global::Envelope.Droid.Resource.Id.text2;
+			global::ImageButton.Android.Resource.Id.textSpacerNoButtons = global::Envelope.Droid.Resource.Id.textSpacerNoButtons;
+			global::ImageButton.Android.Resource.Id.time = global::Envelope.Droid.Resource.Id.time;
+			global::ImageButton.Android.Resource.Id.title = global::Envelope.Droid.Resource.Id.title;
+			global::ImageButton.Android.Resource.Id.title_template = global::Envelope.Droid.Resource.Id.title_template;
+			global::ImageButton.Android.Resource.Id.top = global::Envelope.Droid.Resource.Id.top;
+			global::ImageButton.Android.Resource.Id.topPanel = global::Envelope.Droid.Resource.Id.topPanel;
+			global::ImageButton.Android.Resource.Id.touch_outside = global::Envelope.Droid.Resource.Id.touch_outside;
+			global::ImageButton.Android.Resource.Id.up = global::Envelope.Droid.Resource.Id.up;
+			global::ImageButton.Android.Resource.Id.useLogo = global::Envelope.Droid.Resource.Id.useLogo;
+			global::ImageButton.Android.Resource.Id.view_offset_helper = global::Envelope.Droid.Resource.Id.view_offset_helper;
+			global::ImageButton.Android.Resource.Id.volume_item_container = global::Envelope.Droid.Resource.Id.volume_item_container;
+			global::ImageButton.Android.Resource.Id.withText = global::Envelope.Droid.Resource.Id.withText;
+			global::ImageButton.Android.Resource.Id.wrap_content = global::Envelope.Droid.Resource.Id.wrap_content;
+			global::ImageButton.Android.Resource.Integer.abc_config_activityDefaultDur = global::Envelope.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::ImageButton.Android.Resource.Integer.abc_config_activityShortDur = global::Envelope.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::ImageButton.Android.Resource.Integer.bottom_sheet_slide_duration = global::Envelope.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::ImageButton.Android.Resource.Integer.cancel_button_image_alpha = global::Envelope.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::ImageButton.Android.Resource.Integer.design_snackbar_text_max_lines = global::Envelope.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::ImageButton.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::Envelope.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::ImageButton.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::Envelope.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::ImageButton.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::Envelope.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::ImageButton.Android.Resource.Integer.status_bar_notification_info_maxnum = global::Envelope.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::ImageButton.Android.Resource.Interpolator.mr_fast_out_slow_in = global::Envelope.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::ImageButton.Android.Resource.Interpolator.mr_linear_out_slow_in = global::Envelope.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::ImageButton.Android.Resource.Layout.abc_action_bar_title_item = global::Envelope.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::ImageButton.Android.Resource.Layout.abc_action_bar_up_container = global::Envelope.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::ImageButton.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::Envelope.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::ImageButton.Android.Resource.Layout.abc_action_menu_item_layout = global::Envelope.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::ImageButton.Android.Resource.Layout.abc_action_menu_layout = global::Envelope.Droid.Resource.Layout.abc_action_menu_layout;
+			global::ImageButton.Android.Resource.Layout.abc_action_mode_bar = global::Envelope.Droid.Resource.Layout.abc_action_mode_bar;
+			global::ImageButton.Android.Resource.Layout.abc_action_mode_close_item_material = global::Envelope.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::ImageButton.Android.Resource.Layout.abc_activity_chooser_view = global::Envelope.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::ImageButton.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::Envelope.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::ImageButton.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::Envelope.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::ImageButton.Android.Resource.Layout.abc_alert_dialog_material = global::Envelope.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::ImageButton.Android.Resource.Layout.abc_dialog_title_material = global::Envelope.Droid.Resource.Layout.abc_dialog_title_material;
+			global::ImageButton.Android.Resource.Layout.abc_expanded_menu_layout = global::Envelope.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::ImageButton.Android.Resource.Layout.abc_list_menu_item_checkbox = global::Envelope.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::ImageButton.Android.Resource.Layout.abc_list_menu_item_icon = global::Envelope.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::ImageButton.Android.Resource.Layout.abc_list_menu_item_layout = global::Envelope.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::ImageButton.Android.Resource.Layout.abc_list_menu_item_radio = global::Envelope.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::ImageButton.Android.Resource.Layout.abc_popup_menu_item_layout = global::Envelope.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::ImageButton.Android.Resource.Layout.abc_screen_content_include = global::Envelope.Droid.Resource.Layout.abc_screen_content_include;
+			global::ImageButton.Android.Resource.Layout.abc_screen_simple = global::Envelope.Droid.Resource.Layout.abc_screen_simple;
+			global::ImageButton.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Envelope.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::ImageButton.Android.Resource.Layout.abc_screen_toolbar = global::Envelope.Droid.Resource.Layout.abc_screen_toolbar;
+			global::ImageButton.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Envelope.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::ImageButton.Android.Resource.Layout.abc_search_view = global::Envelope.Droid.Resource.Layout.abc_search_view;
+			global::ImageButton.Android.Resource.Layout.abc_select_dialog_material = global::Envelope.Droid.Resource.Layout.abc_select_dialog_material;
+			global::ImageButton.Android.Resource.Layout.design_bottom_sheet_dialog = global::Envelope.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::ImageButton.Android.Resource.Layout.design_layout_snackbar = global::Envelope.Droid.Resource.Layout.design_layout_snackbar;
+			global::ImageButton.Android.Resource.Layout.design_layout_snackbar_include = global::Envelope.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::ImageButton.Android.Resource.Layout.design_layout_tab_icon = global::Envelope.Droid.Resource.Layout.design_layout_tab_icon;
+			global::ImageButton.Android.Resource.Layout.design_layout_tab_text = global::Envelope.Droid.Resource.Layout.design_layout_tab_text;
+			global::ImageButton.Android.Resource.Layout.design_menu_item_action_area = global::Envelope.Droid.Resource.Layout.design_menu_item_action_area;
+			global::ImageButton.Android.Resource.Layout.design_navigation_item = global::Envelope.Droid.Resource.Layout.design_navigation_item;
+			global::ImageButton.Android.Resource.Layout.design_navigation_item_header = global::Envelope.Droid.Resource.Layout.design_navigation_item_header;
+			global::ImageButton.Android.Resource.Layout.design_navigation_item_separator = global::Envelope.Droid.Resource.Layout.design_navigation_item_separator;
+			global::ImageButton.Android.Resource.Layout.design_navigation_item_subheader = global::Envelope.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::ImageButton.Android.Resource.Layout.design_navigation_menu = global::Envelope.Droid.Resource.Layout.design_navigation_menu;
+			global::ImageButton.Android.Resource.Layout.design_navigation_menu_item = global::Envelope.Droid.Resource.Layout.design_navigation_menu_item;
+			global::ImageButton.Android.Resource.Layout.mr_chooser_dialog = global::Envelope.Droid.Resource.Layout.mr_chooser_dialog;
+			global::ImageButton.Android.Resource.Layout.mr_chooser_list_item = global::Envelope.Droid.Resource.Layout.mr_chooser_list_item;
+			global::ImageButton.Android.Resource.Layout.mr_controller_material_dialog_b = global::Envelope.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::ImageButton.Android.Resource.Layout.mr_controller_volume_item = global::Envelope.Droid.Resource.Layout.mr_controller_volume_item;
+			global::ImageButton.Android.Resource.Layout.mr_playback_control = global::Envelope.Droid.Resource.Layout.mr_playback_control;
+			global::ImageButton.Android.Resource.Layout.mr_volume_control = global::Envelope.Droid.Resource.Layout.mr_volume_control;
+			global::ImageButton.Android.Resource.Layout.notification_media_action = global::Envelope.Droid.Resource.Layout.notification_media_action;
+			global::ImageButton.Android.Resource.Layout.notification_media_cancel_action = global::Envelope.Droid.Resource.Layout.notification_media_cancel_action;
+			global::ImageButton.Android.Resource.Layout.notification_template_big_media = global::Envelope.Droid.Resource.Layout.notification_template_big_media;
+			global::ImageButton.Android.Resource.Layout.notification_template_big_media_narrow = global::Envelope.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::ImageButton.Android.Resource.Layout.notification_template_media = global::Envelope.Droid.Resource.Layout.notification_template_media;
+			global::ImageButton.Android.Resource.Layout.notification_template_part_chronometer = global::Envelope.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::ImageButton.Android.Resource.Layout.notification_template_part_time = global::Envelope.Droid.Resource.Layout.notification_template_part_time;
+			global::ImageButton.Android.Resource.Layout.select_dialog_item_material = global::Envelope.Droid.Resource.Layout.select_dialog_item_material;
+			global::ImageButton.Android.Resource.Layout.select_dialog_multichoice_material = global::Envelope.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::ImageButton.Android.Resource.Layout.select_dialog_singlechoice_material = global::Envelope.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::ImageButton.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Envelope.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::ImageButton.Android.Resource.String.ApplicationName = global::Envelope.Droid.Resource.String.ApplicationName;
+			global::ImageButton.Android.Resource.String.Hello = global::Envelope.Droid.Resource.String.Hello;
+			global::ImageButton.Android.Resource.String.abc_action_bar_home_description = global::Envelope.Droid.Resource.String.abc_action_bar_home_description;
+			global::ImageButton.Android.Resource.String.abc_action_bar_home_description_format = global::Envelope.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::ImageButton.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::Envelope.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::ImageButton.Android.Resource.String.abc_action_bar_up_description = global::Envelope.Droid.Resource.String.abc_action_bar_up_description;
+			global::ImageButton.Android.Resource.String.abc_action_menu_overflow_description = global::Envelope.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::ImageButton.Android.Resource.String.abc_action_mode_done = global::Envelope.Droid.Resource.String.abc_action_mode_done;
+			global::ImageButton.Android.Resource.String.abc_activity_chooser_view_see_all = global::Envelope.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::ImageButton.Android.Resource.String.abc_activitychooserview_choose_application = global::Envelope.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::ImageButton.Android.Resource.String.abc_capital_off = global::Envelope.Droid.Resource.String.abc_capital_off;
+			global::ImageButton.Android.Resource.String.abc_capital_on = global::Envelope.Droid.Resource.String.abc_capital_on;
+			global::ImageButton.Android.Resource.String.abc_search_hint = global::Envelope.Droid.Resource.String.abc_search_hint;
+			global::ImageButton.Android.Resource.String.abc_searchview_description_clear = global::Envelope.Droid.Resource.String.abc_searchview_description_clear;
+			global::ImageButton.Android.Resource.String.abc_searchview_description_query = global::Envelope.Droid.Resource.String.abc_searchview_description_query;
+			global::ImageButton.Android.Resource.String.abc_searchview_description_search = global::Envelope.Droid.Resource.String.abc_searchview_description_search;
+			global::ImageButton.Android.Resource.String.abc_searchview_description_submit = global::Envelope.Droid.Resource.String.abc_searchview_description_submit;
+			global::ImageButton.Android.Resource.String.abc_searchview_description_voice = global::Envelope.Droid.Resource.String.abc_searchview_description_voice;
+			global::ImageButton.Android.Resource.String.abc_shareactionprovider_share_with = global::Envelope.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::ImageButton.Android.Resource.String.abc_shareactionprovider_share_with_application = global::Envelope.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::ImageButton.Android.Resource.String.abc_toolbar_collapse_description = global::Envelope.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::ImageButton.Android.Resource.String.appbar_scrolling_view_behavior = global::Envelope.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::ImageButton.Android.Resource.String.bottom_sheet_behavior = global::Envelope.Droid.Resource.String.bottom_sheet_behavior;
+			global::ImageButton.Android.Resource.String.character_counter_pattern = global::Envelope.Droid.Resource.String.character_counter_pattern;
+			global::ImageButton.Android.Resource.String.mr_button_content_description = global::Envelope.Droid.Resource.String.mr_button_content_description;
+			global::ImageButton.Android.Resource.String.mr_chooser_searching = global::Envelope.Droid.Resource.String.mr_chooser_searching;
+			global::ImageButton.Android.Resource.String.mr_chooser_title = global::Envelope.Droid.Resource.String.mr_chooser_title;
+			global::ImageButton.Android.Resource.String.mr_controller_casting_screen = global::Envelope.Droid.Resource.String.mr_controller_casting_screen;
+			global::ImageButton.Android.Resource.String.mr_controller_close_description = global::Envelope.Droid.Resource.String.mr_controller_close_description;
+			global::ImageButton.Android.Resource.String.mr_controller_collapse_group = global::Envelope.Droid.Resource.String.mr_controller_collapse_group;
+			global::ImageButton.Android.Resource.String.mr_controller_disconnect = global::Envelope.Droid.Resource.String.mr_controller_disconnect;
+			global::ImageButton.Android.Resource.String.mr_controller_expand_group = global::Envelope.Droid.Resource.String.mr_controller_expand_group;
+			global::ImageButton.Android.Resource.String.mr_controller_no_info_available = global::Envelope.Droid.Resource.String.mr_controller_no_info_available;
+			global::ImageButton.Android.Resource.String.mr_controller_no_media_selected = global::Envelope.Droid.Resource.String.mr_controller_no_media_selected;
+			global::ImageButton.Android.Resource.String.mr_controller_pause = global::Envelope.Droid.Resource.String.mr_controller_pause;
+			global::ImageButton.Android.Resource.String.mr_controller_play = global::Envelope.Droid.Resource.String.mr_controller_play;
+			global::ImageButton.Android.Resource.String.mr_controller_stop = global::Envelope.Droid.Resource.String.mr_controller_stop;
+			global::ImageButton.Android.Resource.String.mr_system_route_name = global::Envelope.Droid.Resource.String.mr_system_route_name;
+			global::ImageButton.Android.Resource.String.mr_user_route_category_name = global::Envelope.Droid.Resource.String.mr_user_route_category_name;
+			global::ImageButton.Android.Resource.String.status_bar_notification_info_overflow = global::Envelope.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::ImageButton.Android.Resource.Style.AlertDialog_AppCompat = global::Envelope.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::ImageButton.Android.Resource.Style.AlertDialog_AppCompat_Light = global::Envelope.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Animation_AppCompat_Dialog = global::Envelope.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::ImageButton.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::Envelope.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::ImageButton.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::Envelope.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::ImageButton.Android.Resource.Style.Base_AlertDialog_AppCompat = global::Envelope.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::ImageButton.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Envelope.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::Envelope.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::ImageButton.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Envelope.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::ImageButton.Android.Resource.Style.Base_CardView = global::Envelope.Droid.Resource.Style.Base_CardView;
+			global::ImageButton.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Envelope.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::ImageButton.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Envelope.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Envelope.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Envelope.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Envelope.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ImageButton.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Envelope.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Light = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ImageButton.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Envelope.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::ImageButton.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::Envelope.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::ImageButton.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Envelope.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::ImageButton.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Envelope.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::ImageButton.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Envelope.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ImageButton.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Envelope.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Envelope.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::ImageButton.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Envelope.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::ImageButton.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Envelope.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::ImageButton.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Envelope.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::ImageButton.Android.Resource.Style.Base_V21_Theme_AppCompat = global::Envelope.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::ImageButton.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Envelope.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::ImageButton.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Envelope.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Envelope.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::ImageButton.Android.Resource.Style.Base_V22_Theme_AppCompat = global::Envelope.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::ImageButton.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Envelope.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Base_V23_Theme_AppCompat = global::Envelope.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::ImageButton.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Envelope.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Base_V7_Theme_AppCompat = global::Envelope.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::ImageButton.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Envelope.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::ImageButton.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Envelope.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Envelope.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::ImageButton.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Envelope.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::ImageButton.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Envelope.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Button = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::ImageButton.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Envelope.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ImageButton.Android.Resource.Style.Base_Widget_Design_TabLayout = global::Envelope.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::ImageButton.Android.Resource.Style.CardView = global::Envelope.Droid.Resource.Style.CardView;
+			global::ImageButton.Android.Resource.Style.CardView_Dark = global::Envelope.Droid.Resource.Style.CardView_Dark;
+			global::ImageButton.Android.Resource.Style.CardView_Light = global::Envelope.Droid.Resource.Style.CardView_Light;
+			global::ImageButton.Android.Resource.Style.Platform_AppCompat = global::Envelope.Droid.Resource.Style.Platform_AppCompat;
+			global::ImageButton.Android.Resource.Style.Platform_AppCompat_Light = global::Envelope.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Envelope.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::ImageButton.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Envelope.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::ImageButton.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Envelope.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Platform_V11_AppCompat = global::Envelope.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::ImageButton.Android.Resource.Style.Platform_V11_AppCompat_Light = global::Envelope.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Platform_V14_AppCompat = global::Envelope.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::ImageButton.Android.Resource.Style.Platform_V14_AppCompat_Light = global::Envelope.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Envelope.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Envelope.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::ImageButton.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Envelope.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::ImageButton.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Envelope.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::ImageButton.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Envelope.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Button = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Large = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Small = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Title = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::ImageButton.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Envelope.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ImageButton.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Envelope.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::ImageButton.Android.Resource.Style.TextAppearance_Design_Counter = global::Envelope.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::ImageButton.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Envelope.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::ImageButton.Android.Resource.Style.TextAppearance_Design_Error = global::Envelope.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::ImageButton.Android.Resource.Style.TextAppearance_Design_Hint = global::Envelope.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::ImageButton.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Envelope.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::ImageButton.Android.Resource.Style.TextAppearance_Design_Tab = global::Envelope.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::ImageButton.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::Envelope.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::ImageButton.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::Envelope.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::ImageButton.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::Envelope.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::ImageButton.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::Envelope.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::ImageButton.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::Envelope.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::ImageButton.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Envelope.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ImageButton.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Envelope.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ImageButton.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Envelope.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat = global::Envelope.Droid.Resource.Style.Theme_AppCompat;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::Envelope.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_DayNight = global::Envelope.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Envelope.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Envelope.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Envelope.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Envelope.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Envelope.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Envelope.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_Dialog = global::Envelope.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Envelope.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Envelope.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Envelope.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_Light = global::Envelope.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Envelope.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::Envelope.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Envelope.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Envelope.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Envelope.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Envelope.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::ImageButton.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::Envelope.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::ImageButton.Android.Resource.Style.Theme_Design = global::Envelope.Droid.Resource.Style.Theme_Design;
+			global::ImageButton.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::Envelope.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::ImageButton.Android.Resource.Style.Theme_Design_Light = global::Envelope.Droid.Resource.Style.Theme_Design_Light;
+			global::ImageButton.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Envelope.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::ImageButton.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::Envelope.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::ImageButton.Android.Resource.Style.Theme_Design_NoActionBar = global::Envelope.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::ImageButton.Android.Resource.Style.Theme_MediaRouter = global::Envelope.Droid.Resource.Style.Theme_MediaRouter;
+			global::ImageButton.Android.Resource.Style.Theme_MediaRouter_Light = global::Envelope.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::ImageButton.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::Envelope.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::ImageButton.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::Envelope.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::ImageButton.Android.Resource.Style.ThemeOverlay_AppCompat = global::Envelope.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::ImageButton.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Envelope.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::ImageButton.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Envelope.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::ImageButton.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Envelope.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ImageButton.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::Envelope.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ActionBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ActionButton = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ActionMode = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Envelope.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Button = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Button_Small = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Envelope.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Envelope.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Envelope.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Envelope.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Envelope.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_EditText = global::Envelope.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ImageButton = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ListView = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::Envelope.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Envelope.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::Envelope.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Envelope.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_RatingBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Envelope.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Envelope.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_SearchView = global::Envelope.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_SeekBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Spinner = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Envelope.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Toolbar = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::ImageButton.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Envelope.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ImageButton.Android.Resource.Style.Widget_Design_AppBarLayout = global::Envelope.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::ImageButton.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::Envelope.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::ImageButton.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::Envelope.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::ImageButton.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::Envelope.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::ImageButton.Android.Resource.Style.Widget_Design_FloatingActionButton = global::Envelope.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::ImageButton.Android.Resource.Style.Widget_Design_NavigationView = global::Envelope.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::ImageButton.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Envelope.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::ImageButton.Android.Resource.Style.Widget_Design_Snackbar = global::Envelope.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::ImageButton.Android.Resource.Style.Widget_Design_TabLayout = global::Envelope.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::ImageButton.Android.Resource.Style.Widget_Design_TextInputLayout = global::Envelope.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::ImageButton.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Envelope.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::ImageButton.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Envelope.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::ImageButton.Android.Resource.Styleable.ActionBar = global::Envelope.Droid.Resource.Styleable.ActionBar;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_background = global::Envelope.Droid.Resource.Styleable.ActionBar_background;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_backgroundSplit = global::Envelope.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_backgroundStacked = global::Envelope.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::Envelope.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::Envelope.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_contentInsetRight = global::Envelope.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_contentInsetStart = global::Envelope.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::Envelope.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_displayOptions = global::Envelope.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_divider = global::Envelope.Droid.Resource.Styleable.ActionBar_divider;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_elevation = global::Envelope.Droid.Resource.Styleable.ActionBar_elevation;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_height = global::Envelope.Droid.Resource.Styleable.ActionBar_height;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::Envelope.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Envelope.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_homeLayout = global::Envelope.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_icon = global::Envelope.Droid.Resource.Styleable.ActionBar_icon;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Envelope.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_itemPadding = global::Envelope.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_logo = global::Envelope.Droid.Resource.Styleable.ActionBar_logo;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_navigationMode = global::Envelope.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_popupTheme = global::Envelope.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_progressBarPadding = global::Envelope.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_progressBarStyle = global::Envelope.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_subtitle = global::Envelope.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::Envelope.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_title = global::Envelope.Droid.Resource.Styleable.ActionBar_title;
+			global::ImageButton.Android.Resource.Styleable.ActionBar_titleTextStyle = global::Envelope.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::ImageButton.Android.Resource.Styleable.ActionBarLayout = global::Envelope.Droid.Resource.Styleable.ActionBarLayout;
+			global::ImageButton.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Envelope.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::ImageButton.Android.Resource.Styleable.ActionMenuItemView = global::Envelope.Droid.Resource.Styleable.ActionMenuItemView;
+			global::ImageButton.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Envelope.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::ImageButton.Android.Resource.Styleable.ActionMenuView = global::Envelope.Droid.Resource.Styleable.ActionMenuView;
+			global::ImageButton.Android.Resource.Styleable.ActionMode = global::Envelope.Droid.Resource.Styleable.ActionMode;
+			global::ImageButton.Android.Resource.Styleable.ActionMode_background = global::Envelope.Droid.Resource.Styleable.ActionMode_background;
+			global::ImageButton.Android.Resource.Styleable.ActionMode_backgroundSplit = global::Envelope.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::ImageButton.Android.Resource.Styleable.ActionMode_closeItemLayout = global::Envelope.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::ImageButton.Android.Resource.Styleable.ActionMode_height = global::Envelope.Droid.Resource.Styleable.ActionMode_height;
+			global::ImageButton.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::Envelope.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::ImageButton.Android.Resource.Styleable.ActionMode_titleTextStyle = global::Envelope.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::ImageButton.Android.Resource.Styleable.ActivityChooserView = global::Envelope.Droid.Resource.Styleable.ActivityChooserView;
+			global::ImageButton.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Envelope.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::ImageButton.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Envelope.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::ImageButton.Android.Resource.Styleable.AlertDialog = global::Envelope.Droid.Resource.Styleable.AlertDialog;
+			global::ImageButton.Android.Resource.Styleable.AlertDialog_android_layout = global::Envelope.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::ImageButton.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Envelope.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::ImageButton.Android.Resource.Styleable.AlertDialog_listItemLayout = global::Envelope.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::ImageButton.Android.Resource.Styleable.AlertDialog_listLayout = global::Envelope.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::ImageButton.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Envelope.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::ImageButton.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Envelope.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::ImageButton.Android.Resource.Styleable.AppBarLayout = global::Envelope.Droid.Resource.Styleable.AppBarLayout;
+			global::ImageButton.Android.Resource.Styleable.AppBarLayout_android_background = global::Envelope.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::ImageButton.Android.Resource.Styleable.AppBarLayout_elevation = global::Envelope.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::ImageButton.Android.Resource.Styleable.AppBarLayout_expanded = global::Envelope.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::ImageButton.Android.Resource.Styleable.AppCompatImageView = global::Envelope.Droid.Resource.Styleable.AppCompatImageView;
+			global::ImageButton.Android.Resource.Styleable.AppCompatImageView_android_src = global::Envelope.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::ImageButton.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::Envelope.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTextView = global::Envelope.Droid.Resource.Styleable.AppCompatTextView;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Envelope.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::Envelope.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme = global::Envelope.Droid.Resource.Styleable.AppCompatTheme;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::ImageButton.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Envelope.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::ImageButton.Android.Resource.Styleable.ButtonBarLayout = global::Envelope.Droid.Resource.Styleable.ButtonBarLayout;
+			global::ImageButton.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::Envelope.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::ImageButton.Android.Resource.Styleable.CardView = global::Envelope.Droid.Resource.Styleable.CardView;
+			global::ImageButton.Android.Resource.Styleable.CardView_android_minHeight = global::Envelope.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::ImageButton.Android.Resource.Styleable.CardView_android_minWidth = global::Envelope.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::ImageButton.Android.Resource.Styleable.CardView_cardBackgroundColor = global::Envelope.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::ImageButton.Android.Resource.Styleable.CardView_cardCornerRadius = global::Envelope.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::ImageButton.Android.Resource.Styleable.CardView_cardElevation = global::Envelope.Droid.Resource.Styleable.CardView_cardElevation;
+			global::ImageButton.Android.Resource.Styleable.CardView_cardMaxElevation = global::Envelope.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::ImageButton.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Envelope.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::ImageButton.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::Envelope.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::ImageButton.Android.Resource.Styleable.CardView_contentPadding = global::Envelope.Droid.Resource.Styleable.CardView_contentPadding;
+			global::ImageButton.Android.Resource.Styleable.CardView_contentPaddingBottom = global::Envelope.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::ImageButton.Android.Resource.Styleable.CardView_contentPaddingLeft = global::Envelope.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::ImageButton.Android.Resource.Styleable.CardView_contentPaddingRight = global::Envelope.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::ImageButton.Android.Resource.Styleable.CardView_contentPaddingTop = global::Envelope.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::ImageButton.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Envelope.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::ImageButton.Android.Resource.Styleable.CompoundButton = global::Envelope.Droid.Resource.Styleable.CompoundButton;
+			global::ImageButton.Android.Resource.Styleable.CompoundButton_android_button = global::Envelope.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::ImageButton.Android.Resource.Styleable.CompoundButton_buttonTint = global::Envelope.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::ImageButton.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::Envelope.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::ImageButton.Android.Resource.Styleable.CoordinatorLayout = global::Envelope.Droid.Resource.Styleable.CoordinatorLayout;
+			global::ImageButton.Android.Resource.Styleable.CoordinatorLayout_keylines = global::Envelope.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::ImageButton.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Envelope.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::ImageButton.Android.Resource.Styleable.DesignTheme = global::Envelope.Droid.Resource.Styleable.DesignTheme;
+			global::ImageButton.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Envelope.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::ImageButton.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Envelope.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::ImageButton.Android.Resource.Styleable.DesignTheme_textColorError = global::Envelope.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::ImageButton.Android.Resource.Styleable.DrawerArrowToggle = global::Envelope.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::ImageButton.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Envelope.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::ImageButton.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Envelope.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::ImageButton.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::Envelope.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::ImageButton.Android.Resource.Styleable.DrawerArrowToggle_color = global::Envelope.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::ImageButton.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Envelope.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::ImageButton.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Envelope.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::ImageButton.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::Envelope.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::ImageButton.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::Envelope.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::ImageButton.Android.Resource.Styleable.FloatingActionButton = global::Envelope.Droid.Resource.Styleable.FloatingActionButton;
+			global::ImageButton.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::Envelope.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::ImageButton.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Envelope.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::ImageButton.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::Envelope.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::ImageButton.Android.Resource.Styleable.FloatingActionButton_elevation = global::Envelope.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::ImageButton.Android.Resource.Styleable.FloatingActionButton_fabSize = global::Envelope.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::ImageButton.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Envelope.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::ImageButton.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::Envelope.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::ImageButton.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Envelope.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::ImageButton.Android.Resource.Styleable.ForegroundLinearLayout = global::Envelope.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::ImageButton.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Envelope.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::ImageButton.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Envelope.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::ImageButton.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Envelope.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_divider = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::ImageButton.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Envelope.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::ImageButton.Android.Resource.Styleable.ListPopupWindow = global::Envelope.Droid.Resource.Styleable.ListPopupWindow;
+			global::ImageButton.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Envelope.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::ImageButton.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Envelope.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::ImageButton.Android.Resource.Styleable.MediaRouteButton = global::Envelope.Droid.Resource.Styleable.MediaRouteButton;
+			global::ImageButton.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::Envelope.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::ImageButton.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::Envelope.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::ImageButton.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Envelope.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::ImageButton.Android.Resource.Styleable.MenuGroup = global::Envelope.Droid.Resource.Styleable.MenuGroup;
+			global::ImageButton.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Envelope.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::ImageButton.Android.Resource.Styleable.MenuGroup_android_enabled = global::Envelope.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::ImageButton.Android.Resource.Styleable.MenuGroup_android_id = global::Envelope.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::ImageButton.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::Envelope.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::ImageButton.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::Envelope.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::ImageButton.Android.Resource.Styleable.MenuGroup_android_visible = global::Envelope.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::ImageButton.Android.Resource.Styleable.MenuItem = global::Envelope.Droid.Resource.Styleable.MenuItem;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_actionLayout = global::Envelope.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_actionProviderClass = global::Envelope.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_actionViewClass = global::Envelope.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Envelope.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_checkable = global::Envelope.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_checked = global::Envelope.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_enabled = global::Envelope.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_icon = global::Envelope.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_id = global::Envelope.Droid.Resource.Styleable.MenuItem_android_id;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_menuCategory = global::Envelope.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::Envelope.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_onClick = global::Envelope.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::Envelope.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_title = global::Envelope.Droid.Resource.Styleable.MenuItem_android_title;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::Envelope.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_android_visible = global::Envelope.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::ImageButton.Android.Resource.Styleable.MenuItem_showAsAction = global::Envelope.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::ImageButton.Android.Resource.Styleable.MenuView = global::Envelope.Droid.Resource.Styleable.MenuView;
+			global::ImageButton.Android.Resource.Styleable.MenuView_android_headerBackground = global::Envelope.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::ImageButton.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::Envelope.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::ImageButton.Android.Resource.Styleable.MenuView_android_itemBackground = global::Envelope.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::ImageButton.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Envelope.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::ImageButton.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::Envelope.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.MenuView_android_verticalDivider = global::Envelope.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::ImageButton.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Envelope.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::ImageButton.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::Envelope.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::ImageButton.Android.Resource.Styleable.NavigationView = global::Envelope.Droid.Resource.Styleable.NavigationView;
+			global::ImageButton.Android.Resource.Styleable.NavigationView_android_background = global::Envelope.Droid.Resource.Styleable.NavigationView_android_background;
+			global::ImageButton.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Envelope.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::ImageButton.Android.Resource.Styleable.NavigationView_android_maxWidth = global::Envelope.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::ImageButton.Android.Resource.Styleable.NavigationView_elevation = global::Envelope.Droid.Resource.Styleable.NavigationView_elevation;
+			global::ImageButton.Android.Resource.Styleable.NavigationView_headerLayout = global::Envelope.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::ImageButton.Android.Resource.Styleable.NavigationView_itemBackground = global::Envelope.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::ImageButton.Android.Resource.Styleable.NavigationView_itemIconTint = global::Envelope.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::ImageButton.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::Envelope.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.NavigationView_itemTextColor = global::Envelope.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::ImageButton.Android.Resource.Styleable.NavigationView_menu = global::Envelope.Droid.Resource.Styleable.NavigationView_menu;
+			global::ImageButton.Android.Resource.Styleable.PopupWindow = global::Envelope.Droid.Resource.Styleable.PopupWindow;
+			global::ImageButton.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::Envelope.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::ImageButton.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::Envelope.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::ImageButton.Android.Resource.Styleable.PopupWindowBackgroundState = global::Envelope.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::ImageButton.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Envelope.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::ImageButton.Android.Resource.Styleable.RecyclerView = global::Envelope.Droid.Resource.Styleable.RecyclerView;
+			global::ImageButton.Android.Resource.Styleable.RecyclerView_android_orientation = global::Envelope.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::ImageButton.Android.Resource.Styleable.RecyclerView_layoutManager = global::Envelope.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::ImageButton.Android.Resource.Styleable.RecyclerView_reverseLayout = global::Envelope.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::ImageButton.Android.Resource.Styleable.RecyclerView_spanCount = global::Envelope.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::ImageButton.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::Envelope.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::ImageButton.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::Envelope.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::ImageButton.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Envelope.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::ImageButton.Android.Resource.Styleable.SearchView = global::Envelope.Droid.Resource.Styleable.SearchView;
+			global::ImageButton.Android.Resource.Styleable.SearchView_android_focusable = global::Envelope.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::ImageButton.Android.Resource.Styleable.SearchView_android_imeOptions = global::Envelope.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::ImageButton.Android.Resource.Styleable.SearchView_android_inputType = global::Envelope.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::ImageButton.Android.Resource.Styleable.SearchView_android_maxWidth = global::Envelope.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::ImageButton.Android.Resource.Styleable.SearchView_closeIcon = global::Envelope.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::ImageButton.Android.Resource.Styleable.SearchView_commitIcon = global::Envelope.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::ImageButton.Android.Resource.Styleable.SearchView_defaultQueryHint = global::Envelope.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::ImageButton.Android.Resource.Styleable.SearchView_goIcon = global::Envelope.Droid.Resource.Styleable.SearchView_goIcon;
+			global::ImageButton.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::Envelope.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::ImageButton.Android.Resource.Styleable.SearchView_layout = global::Envelope.Droid.Resource.Styleable.SearchView_layout;
+			global::ImageButton.Android.Resource.Styleable.SearchView_queryBackground = global::Envelope.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::ImageButton.Android.Resource.Styleable.SearchView_queryHint = global::Envelope.Droid.Resource.Styleable.SearchView_queryHint;
+			global::ImageButton.Android.Resource.Styleable.SearchView_searchHintIcon = global::Envelope.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::ImageButton.Android.Resource.Styleable.SearchView_searchIcon = global::Envelope.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::ImageButton.Android.Resource.Styleable.SearchView_submitBackground = global::Envelope.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::ImageButton.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::Envelope.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::ImageButton.Android.Resource.Styleable.SearchView_voiceIcon = global::Envelope.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::ImageButton.Android.Resource.Styleable.SnackbarLayout = global::Envelope.Droid.Resource.Styleable.SnackbarLayout;
+			global::ImageButton.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Envelope.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::ImageButton.Android.Resource.Styleable.SnackbarLayout_elevation = global::Envelope.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::ImageButton.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Envelope.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::ImageButton.Android.Resource.Styleable.Spinner = global::Envelope.Droid.Resource.Styleable.Spinner;
+			global::ImageButton.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::Envelope.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::ImageButton.Android.Resource.Styleable.Spinner_android_entries = global::Envelope.Droid.Resource.Styleable.Spinner_android_entries;
+			global::ImageButton.Android.Resource.Styleable.Spinner_android_popupBackground = global::Envelope.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::ImageButton.Android.Resource.Styleable.Spinner_android_prompt = global::Envelope.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::ImageButton.Android.Resource.Styleable.Spinner_popupTheme = global::Envelope.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat = global::Envelope.Droid.Resource.Styleable.SwitchCompat;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat_android_textOff = global::Envelope.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat_android_textOn = global::Envelope.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat_android_thumb = global::Envelope.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat_showText = global::Envelope.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat_splitTrack = global::Envelope.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::Envelope.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat_switchPadding = global::Envelope.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Envelope.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Envelope.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::ImageButton.Android.Resource.Styleable.SwitchCompat_track = global::Envelope.Droid.Resource.Styleable.SwitchCompat_track;
+			global::ImageButton.Android.Resource.Styleable.TabItem = global::Envelope.Droid.Resource.Styleable.TabItem;
+			global::ImageButton.Android.Resource.Styleable.TabItem_android_icon = global::Envelope.Droid.Resource.Styleable.TabItem_android_icon;
+			global::ImageButton.Android.Resource.Styleable.TabItem_android_layout = global::Envelope.Droid.Resource.Styleable.TabItem_android_layout;
+			global::ImageButton.Android.Resource.Styleable.TabItem_android_text = global::Envelope.Droid.Resource.Styleable.TabItem_android_text;
+			global::ImageButton.Android.Resource.Styleable.TabLayout = global::Envelope.Droid.Resource.Styleable.TabLayout;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabBackground = global::Envelope.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabContentStart = global::Envelope.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabGravity = global::Envelope.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::Envelope.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Envelope.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::Envelope.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabMinWidth = global::Envelope.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabMode = global::Envelope.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabPadding = global::Envelope.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::Envelope.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::Envelope.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::Envelope.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::Envelope.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Envelope.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::Envelope.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.TabLayout_tabTextColor = global::Envelope.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::ImageButton.Android.Resource.Styleable.TextAppearance = global::Envelope.Droid.Resource.Styleable.TextAppearance;
+			global::ImageButton.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::Envelope.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::ImageButton.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::Envelope.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::ImageButton.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::Envelope.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::ImageButton.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::Envelope.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::ImageButton.Android.Resource.Styleable.TextAppearance_android_textColor = global::Envelope.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::ImageButton.Android.Resource.Styleable.TextAppearance_android_textSize = global::Envelope.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::ImageButton.Android.Resource.Styleable.TextAppearance_android_textStyle = global::Envelope.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::ImageButton.Android.Resource.Styleable.TextAppearance_android_typeface = global::Envelope.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::ImageButton.Android.Resource.Styleable.TextAppearance_textAllCaps = global::Envelope.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout = global::Envelope.Droid.Resource.Styleable.TextInputLayout;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_android_hint = global::Envelope.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::Envelope.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::Envelope.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::Envelope.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Envelope.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Envelope.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::Envelope.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Envelope.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Envelope.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::Envelope.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::ImageButton.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Envelope.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.Toolbar = global::Envelope.Droid.Resource.Styleable.Toolbar;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_android_gravity = global::Envelope.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_android_minHeight = global::Envelope.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::Envelope.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_collapseIcon = global::Envelope.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::Envelope.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::Envelope.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_contentInsetRight = global::Envelope.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_contentInsetStart = global::Envelope.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_logo = global::Envelope.Droid.Resource.Styleable.Toolbar_logo;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_logoDescription = global::Envelope.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::Envelope.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::Envelope.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_navigationIcon = global::Envelope.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_popupTheme = global::Envelope.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_subtitle = global::Envelope.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Envelope.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::Envelope.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_title = global::Envelope.Droid.Resource.Styleable.Toolbar_title;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::Envelope.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::Envelope.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_titleMarginStart = global::Envelope.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_titleMarginTop = global::Envelope.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_titleMargins = global::Envelope.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::Envelope.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::ImageButton.Android.Resource.Styleable.Toolbar_titleTextColor = global::Envelope.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::ImageButton.Android.Resource.Styleable.View = global::Envelope.Droid.Resource.Styleable.View;
+			global::ImageButton.Android.Resource.Styleable.View_android_focusable = global::Envelope.Droid.Resource.Styleable.View_android_focusable;
+			global::ImageButton.Android.Resource.Styleable.View_android_theme = global::Envelope.Droid.Resource.Styleable.View_android_theme;
+			global::ImageButton.Android.Resource.Styleable.View_paddingEnd = global::Envelope.Droid.Resource.Styleable.View_paddingEnd;
+			global::ImageButton.Android.Resource.Styleable.View_paddingStart = global::Envelope.Droid.Resource.Styleable.View_paddingStart;
+			global::ImageButton.Android.Resource.Styleable.View_theme = global::Envelope.Droid.Resource.Styleable.View_theme;
+			global::ImageButton.Android.Resource.Styleable.ViewBackgroundHelper = global::Envelope.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::ImageButton.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::Envelope.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::ImageButton.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Envelope.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::ImageButton.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Envelope.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::ImageButton.Android.Resource.Styleable.ViewStubCompat = global::Envelope.Droid.Resource.Styleable.ViewStubCompat;
+			global::ImageButton.Android.Resource.Styleable.ViewStubCompat_android_id = global::Envelope.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::ImageButton.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Envelope.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::ImageButton.Android.Resource.Styleable.ViewStubCompat_android_layout = global::Envelope.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Envelope.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -2192,26 +3829,26 @@ namespace Envelope.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02010f
-			public const int avd_hide_password_1 = 2130837775;
-			
 			// aapt resource value: 0x7f020110
-			public const int avd_hide_password_2 = 2130837776;
+			public const int avd_hide_password_1 = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int avd_hide_password_3 = 2130837777;
+			public const int avd_hide_password_2 = 2130837777;
+			
+			// aapt resource value: 0x7f020112
+			public const int avd_hide_password_3 = 2130837778;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020112
-			public const int avd_show_password_1 = 2130837778;
-			
 			// aapt resource value: 0x7f020113
-			public const int avd_show_password_2 = 2130837779;
+			public const int avd_show_password_1 = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int avd_show_password_3 = 2130837780;
+			public const int avd_show_password_2 = 2130837780;
+			
+			// aapt resource value: 0x7f020115
+			public const int avd_show_password_3 = 2130837781;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2241,535 +3878,538 @@ namespace Envelope.Droid
 			public const int ic_audiotrack_light = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_dialog_close_dark = 2130837598;
+			public const int ic_build_black_24dp = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_dialog_close_light = 2130837599;
+			public const int ic_dialog_close_dark = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_00 = 2130837600;
+			public const int ic_dialog_close_light = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_01 = 2130837601;
+			public const int ic_group_collapse_00 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_02 = 2130837602;
+			public const int ic_group_collapse_01 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_03 = 2130837603;
+			public const int ic_group_collapse_02 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_04 = 2130837604;
+			public const int ic_group_collapse_03 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_05 = 2130837605;
+			public const int ic_group_collapse_04 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_06 = 2130837606;
+			public const int ic_group_collapse_05 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_07 = 2130837607;
+			public const int ic_group_collapse_06 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_08 = 2130837608;
+			public const int ic_group_collapse_07 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_09 = 2130837609;
+			public const int ic_group_collapse_08 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_10 = 2130837610;
+			public const int ic_group_collapse_09 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_11 = 2130837611;
+			public const int ic_group_collapse_10 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_12 = 2130837612;
+			public const int ic_group_collapse_11 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_13 = 2130837613;
+			public const int ic_group_collapse_12 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_14 = 2130837614;
+			public const int ic_group_collapse_13 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_collapse_15 = 2130837615;
+			public const int ic_group_collapse_14 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_00 = 2130837616;
+			public const int ic_group_collapse_15 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_01 = 2130837617;
+			public const int ic_group_expand_00 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_02 = 2130837618;
+			public const int ic_group_expand_01 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_03 = 2130837619;
+			public const int ic_group_expand_02 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_04 = 2130837620;
+			public const int ic_group_expand_03 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_05 = 2130837621;
+			public const int ic_group_expand_04 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_06 = 2130837622;
+			public const int ic_group_expand_05 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_07 = 2130837623;
+			public const int ic_group_expand_06 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_08 = 2130837624;
+			public const int ic_group_expand_07 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_09 = 2130837625;
+			public const int ic_group_expand_08 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_10 = 2130837626;
+			public const int ic_group_expand_09 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_11 = 2130837627;
+			public const int ic_group_expand_10 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_12 = 2130837628;
+			public const int ic_group_expand_11 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_13 = 2130837629;
+			public const int ic_group_expand_12 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_14 = 2130837630;
+			public const int ic_group_expand_13 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_group_expand_15 = 2130837631;
+			public const int ic_group_expand_14 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_dark = 2130837632;
+			public const int ic_group_expand_15 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_pause_light = 2130837633;
+			public const int ic_media_pause_dark = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_play_dark = 2130837634;
+			public const int ic_media_pause_light = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_play_light = 2130837635;
+			public const int ic_media_play_dark = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_stop_dark = 2130837636;
+			public const int ic_media_play_light = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_stop_light = 2130837637;
+			public const int ic_media_stop_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_dark = 2130837638;
+			public const int ic_media_stop_light = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_00_light = 2130837639;
+			public const int ic_mr_button_connected_00_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_dark = 2130837640;
+			public const int ic_mr_button_connected_00_light = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_01_light = 2130837641;
+			public const int ic_mr_button_connected_01_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_dark = 2130837642;
+			public const int ic_mr_button_connected_01_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_02_light = 2130837643;
+			public const int ic_mr_button_connected_02_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_dark = 2130837644;
+			public const int ic_mr_button_connected_02_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_03_light = 2130837645;
+			public const int ic_mr_button_connected_03_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_dark = 2130837646;
+			public const int ic_mr_button_connected_03_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_04_light = 2130837647;
+			public const int ic_mr_button_connected_04_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_dark = 2130837648;
+			public const int ic_mr_button_connected_04_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_05_light = 2130837649;
+			public const int ic_mr_button_connected_05_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_dark = 2130837650;
+			public const int ic_mr_button_connected_05_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_06_light = 2130837651;
+			public const int ic_mr_button_connected_06_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_dark = 2130837652;
+			public const int ic_mr_button_connected_06_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_07_light = 2130837653;
+			public const int ic_mr_button_connected_07_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_dark = 2130837654;
+			public const int ic_mr_button_connected_07_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_08_light = 2130837655;
+			public const int ic_mr_button_connected_08_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_dark = 2130837656;
+			public const int ic_mr_button_connected_08_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_09_light = 2130837657;
+			public const int ic_mr_button_connected_09_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_dark = 2130837658;
+			public const int ic_mr_button_connected_09_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_10_light = 2130837659;
+			public const int ic_mr_button_connected_10_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_dark = 2130837660;
+			public const int ic_mr_button_connected_10_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_11_light = 2130837661;
+			public const int ic_mr_button_connected_11_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_dark = 2130837662;
+			public const int ic_mr_button_connected_11_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_12_light = 2130837663;
+			public const int ic_mr_button_connected_12_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_dark = 2130837664;
+			public const int ic_mr_button_connected_12_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_13_light = 2130837665;
+			public const int ic_mr_button_connected_13_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_dark = 2130837666;
+			public const int ic_mr_button_connected_13_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_14_light = 2130837667;
+			public const int ic_mr_button_connected_14_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_dark = 2130837668;
+			public const int ic_mr_button_connected_14_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_15_light = 2130837669;
+			public const int ic_mr_button_connected_15_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_dark = 2130837670;
+			public const int ic_mr_button_connected_15_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_16_light = 2130837671;
+			public const int ic_mr_button_connected_16_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_dark = 2130837672;
+			public const int ic_mr_button_connected_16_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_17_light = 2130837673;
+			public const int ic_mr_button_connected_17_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_dark = 2130837674;
+			public const int ic_mr_button_connected_17_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_18_light = 2130837675;
+			public const int ic_mr_button_connected_18_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_dark = 2130837676;
+			public const int ic_mr_button_connected_18_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_19_light = 2130837677;
+			public const int ic_mr_button_connected_19_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_dark = 2130837678;
+			public const int ic_mr_button_connected_19_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_20_light = 2130837679;
+			public const int ic_mr_button_connected_20_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_dark = 2130837680;
+			public const int ic_mr_button_connected_20_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_21_light = 2130837681;
+			public const int ic_mr_button_connected_21_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_dark = 2130837682;
+			public const int ic_mr_button_connected_21_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_22_light = 2130837683;
+			public const int ic_mr_button_connected_22_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connecting_00_dark = 2130837684;
+			public const int ic_mr_button_connected_22_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connecting_00_light = 2130837685;
+			public const int ic_mr_button_connecting_00_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connecting_01_dark = 2130837686;
+			public const int ic_mr_button_connecting_00_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connecting_01_light = 2130837687;
+			public const int ic_mr_button_connecting_01_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connecting_02_dark = 2130837688;
+			public const int ic_mr_button_connecting_01_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connecting_02_light = 2130837689;
+			public const int ic_mr_button_connecting_02_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connecting_03_dark = 2130837690;
+			public const int ic_mr_button_connecting_02_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connecting_03_light = 2130837691;
+			public const int ic_mr_button_connecting_03_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connecting_04_dark = 2130837692;
+			public const int ic_mr_button_connecting_03_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connecting_04_light = 2130837693;
+			public const int ic_mr_button_connecting_04_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connecting_05_dark = 2130837694;
+			public const int ic_mr_button_connecting_04_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connecting_05_light = 2130837695;
+			public const int ic_mr_button_connecting_05_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connecting_06_dark = 2130837696;
+			public const int ic_mr_button_connecting_05_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connecting_06_light = 2130837697;
+			public const int ic_mr_button_connecting_06_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connecting_07_dark = 2130837698;
+			public const int ic_mr_button_connecting_06_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connecting_07_light = 2130837699;
+			public const int ic_mr_button_connecting_07_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_08_dark = 2130837700;
+			public const int ic_mr_button_connecting_07_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_08_light = 2130837701;
+			public const int ic_mr_button_connecting_08_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_09_dark = 2130837702;
+			public const int ic_mr_button_connecting_08_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_09_light = 2130837703;
+			public const int ic_mr_button_connecting_09_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_10_dark = 2130837704;
+			public const int ic_mr_button_connecting_09_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_10_light = 2130837705;
+			public const int ic_mr_button_connecting_10_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_11_dark = 2130837706;
+			public const int ic_mr_button_connecting_10_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_11_light = 2130837707;
+			public const int ic_mr_button_connecting_11_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_12_dark = 2130837708;
+			public const int ic_mr_button_connecting_11_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_12_light = 2130837709;
+			public const int ic_mr_button_connecting_12_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_13_dark = 2130837710;
+			public const int ic_mr_button_connecting_12_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_13_light = 2130837711;
+			public const int ic_mr_button_connecting_13_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_14_dark = 2130837712;
+			public const int ic_mr_button_connecting_13_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_14_light = 2130837713;
+			public const int ic_mr_button_connecting_14_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_15_dark = 2130837714;
+			public const int ic_mr_button_connecting_14_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_15_light = 2130837715;
+			public const int ic_mr_button_connecting_15_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_16_dark = 2130837716;
+			public const int ic_mr_button_connecting_15_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_16_light = 2130837717;
+			public const int ic_mr_button_connecting_16_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_17_dark = 2130837718;
+			public const int ic_mr_button_connecting_16_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_17_light = 2130837719;
+			public const int ic_mr_button_connecting_17_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_18_dark = 2130837720;
+			public const int ic_mr_button_connecting_17_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_18_light = 2130837721;
+			public const int ic_mr_button_connecting_18_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_19_dark = 2130837722;
+			public const int ic_mr_button_connecting_18_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_19_light = 2130837723;
+			public const int ic_mr_button_connecting_19_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_20_dark = 2130837724;
+			public const int ic_mr_button_connecting_19_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_20_light = 2130837725;
+			public const int ic_mr_button_connecting_20_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_21_dark = 2130837726;
+			public const int ic_mr_button_connecting_20_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_21_light = 2130837727;
+			public const int ic_mr_button_connecting_21_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_22_dark = 2130837728;
+			public const int ic_mr_button_connecting_21_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_22_light = 2130837729;
+			public const int ic_mr_button_connecting_22_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_disabled_dark = 2130837730;
+			public const int ic_mr_button_connecting_22_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_disabled_light = 2130837731;
+			public const int ic_mr_button_disabled_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_disconnected_dark = 2130837732;
+			public const int ic_mr_button_disabled_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_disconnected_light = 2130837733;
+			public const int ic_mr_button_disconnected_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_grey = 2130837734;
+			public const int ic_mr_button_disconnected_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_vol_type_speaker_dark = 2130837735;
+			public const int ic_mr_button_grey = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_vol_type_speaker_group_dark = 2130837736;
+			public const int ic_vol_type_speaker_dark = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_vol_type_speaker_group_light = 2130837737;
+			public const int ic_vol_type_speaker_group_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_vol_type_speaker_light = 2130837738;
+			public const int ic_vol_type_speaker_group_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_vol_type_tv_dark = 2130837739;
+			public const int ic_vol_type_speaker_light = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_vol_type_tv_light = 2130837740;
+			public const int ic_vol_type_tv_dark = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int icon = 2130837741;
+			public const int ic_vol_type_tv_light = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int mr_button_connected_dark = 2130837742;
+			public const int icon = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int mr_button_connected_light = 2130837743;
+			public const int mr_button_connected_dark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int mr_button_connecting_dark = 2130837744;
+			public const int mr_button_connected_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int mr_button_connecting_light = 2130837745;
+			public const int mr_button_connecting_dark = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int mr_button_dark = 2130837746;
+			public const int mr_button_connecting_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int mr_button_light = 2130837747;
+			public const int mr_button_dark = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int mr_dialog_close_dark = 2130837748;
+			public const int mr_button_light = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int mr_dialog_close_light = 2130837749;
+			public const int mr_dialog_close_dark = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int mr_dialog_material_background_dark = 2130837750;
+			public const int mr_dialog_close_light = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int mr_dialog_material_background_light = 2130837751;
+			public const int mr_dialog_material_background_dark = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int mr_group_collapse = 2130837752;
+			public const int mr_dialog_material_background_light = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int mr_group_expand = 2130837753;
+			public const int mr_group_collapse = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int mr_media_pause_dark = 2130837754;
+			public const int mr_group_expand = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int mr_media_pause_light = 2130837755;
+			public const int mr_media_pause_dark = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int mr_media_play_dark = 2130837756;
+			public const int mr_media_pause_light = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int mr_media_play_light = 2130837757;
+			public const int mr_media_play_dark = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int mr_media_stop_dark = 2130837758;
+			public const int mr_media_play_light = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int mr_media_stop_light = 2130837759;
+			public const int mr_media_stop_dark = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int mr_vol_type_audiotrack_dark = 2130837760;
+			public const int mr_media_stop_light = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int mr_vol_type_audiotrack_light = 2130837761;
+			public const int mr_vol_type_audiotrack_dark = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int navigation_empty_icon = 2130837762;
+			public const int mr_vol_type_audiotrack_light = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int notification_action_background = 2130837763;
+			public const int navigation_empty_icon = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int notification_bg = 2130837764;
+			public const int notification_action_background = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int notification_bg_low = 2130837765;
+			public const int notification_bg = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int notification_bg_low_normal = 2130837766;
+			public const int notification_bg_low = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int notification_bg_low_pressed = 2130837767;
+			public const int notification_bg_low_normal = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int notification_bg_normal = 2130837768;
+			public const int notification_bg_low_pressed = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int notification_bg_normal_pressed = 2130837769;
+			public const int notification_bg_normal = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int notification_icon_background = 2130837770;
-			
-			// aapt resource value: 0x7f02010d
-			public const int notification_template_icon_bg = 2130837773;
-			
-			// aapt resource value: 0x7f02010e
-			public const int notification_template_icon_low_bg = 2130837774;
+			public const int notification_bg_normal_pressed = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int notification_tile_bg = 2130837771;
+			public const int notification_icon_background = 2130837771;
+			
+			// aapt resource value: 0x7f02010e
+			public const int notification_template_icon_bg = 2130837774;
+			
+			// aapt resource value: 0x7f02010f
+			public const int notification_template_icon_low_bg = 2130837775;
 			
 			// aapt resource value: 0x7f02010c
-			public const int notify_panel_notification_icon_bg = 2130837772;
+			public const int notification_tile_bg = 2130837772;
+			
+			// aapt resource value: 0x7f02010d
+			public const int notify_panel_notification_icon_bg = 2130837773;
 			
 			static Drawable()
 			{
@@ -3627,6 +5267,12 @@ namespace Envelope.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f09003f
+			public const int ApplicationName = 2131296319;
+			
+			// aapt resource value: 0x7f09003e
+			public const int Hello = 2131296318;
 			
 			// aapt resource value: 0x7f090015
 			public const int abc_action_bar_home_description = 2131296277;
