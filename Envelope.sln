@@ -78,7 +78,6 @@ Global
 		{259679DE-34B1-42FA-B983-89A9B349414C}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
 		{259679DE-34B1-42FA-B983-89A9B349414C}.Debug|Any CPU.ActiveCfg = Debug|iPhone
 		{259679DE-34B1-42FA-B983-89A9B349414C}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{259679DE-34B1-42FA-B983-89A9B349414C}.Debug|iPhone.Build.0 = Debug|iPhone
 		{259679DE-34B1-42FA-B983-89A9B349414C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{259679DE-34B1-42FA-B983-89A9B349414C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{259679DE-34B1-42FA-B983-89A9B349414C}.Release|Any CPU.ActiveCfg = Release|iPhone

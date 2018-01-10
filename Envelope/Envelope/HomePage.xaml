@@ -4,11 +4,8 @@
              x:Class="Envelope.HomePage"
              BackgroundColor="White"
              Title="City Of Ekurhuleni">
-    
-    
 
-    <StackLayout>
-        <Image  Margin="20" VerticalOptions="Start" HeightRequest="220" WidthRequest="220"  Source="Ekurhulen.png"/>
+
 
         <AbsoluteLayout>
             <Image Source="tourisim.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
@@ -47,4 +44,5 @@
         
     </StackLayout>
    
+
 </ContentPage>
