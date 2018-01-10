@@ -29,6 +29,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <Page Include="$(MSBuildThisFileDirectory)Tourisim.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="$(MSBuildThisFileDirectory)views\mainLandingPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>

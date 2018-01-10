@@ -11,9 +11,40 @@
         <Image  Margin="20" VerticalOptions="Start" HeightRequest="220" WidthRequest="220"  Source="Ekurhulen.png"/>
 
         <AbsoluteLayout>
-            <Image Source="Ekurhulen.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Image Source="tourisim.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
             <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="Tourism"></Label>
         </AbsoluteLayout>
+
+        <AbsoluteLayout>
+            <Image Source="settings.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="settings"></Label>
+        </AbsoluteLayout>
+
+        <AbsoluteLayout>
+            <Image Source="reportIt.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="report it"></Label>
+        </AbsoluteLayout>
+
+        <AbsoluteLayout>
+            <Image Source="general.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="General"></Label>
+        </AbsoluteLayout>
+        <AbsoluteLayout>
+            <Image Source="siyakhoka.jpg" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="e-Siyakhokha"></Label>
+        </AbsoluteLayout>
+        
+        <AbsoluteLayout>
+            <Image Source="requestIt.png" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Clicked="Button_Clicked" AbsoluteLayout.LayoutBounds="0.2,0.2,35,35" AbsoluteLayout.LayoutFlags="PositionProportional" BorderColor="Transparent" BackgroundColor="Transparent" Command="{Binding AlertMeCommand}"/>
+            <Label Text="request it"></Label>
+        </AbsoluteLayout>
+        
     </StackLayout>
    
 </ContentPage>
