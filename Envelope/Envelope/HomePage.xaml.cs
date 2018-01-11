@@ -17,34 +17,21 @@ namespace Envelope
 			InitializeComponent ();
 		}
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
 
+        async void Settings_Clicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new SettingPage());
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        async void General_Clicked(object sender, EventArgs args)
         {
-
+            await Navigation.PushAsync(new GeneralsPage());
         }
 
-        private void Button_Clicked_2(object sender, EventArgs e)
+        async void Siyakhokha_Clicked(object sender, EventArgs args)
         {
-
+            await Navigation.PushAsync(new SiyakhokhaPage());
         }
-
-        private void Button_Clicked_3(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Button_Clicked_4(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Button_Clicked_5(object sender, EventArgs e)
-        {
-
-        }
+    
     }
 }
