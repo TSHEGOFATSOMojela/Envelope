@@ -16,18 +16,5 @@ namespace Envelope
 		{
 			InitializeComponent ();
 		}
-
-         async void TouristClicked(object sender, EventArgs args)
-        {
-            await Navigation.PushAsync(new TouristPage());
-        }
-        async void SettingsClicked(object sender, EventArgs args)
-        {
-            await Navigation.PushAsync(new SettingsPage());
-        }
-        async void ReportItClicked(object sender, EventArgs args)
-        {
-            await Navigation.PushAsync(new ReportItPage());
-        }
     }
 }
