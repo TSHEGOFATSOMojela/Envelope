@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Envelope
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class e-SiyakhokhaPage : ContentPage
+	public partial class SiyakhokhaPage : ContentPage
 	{
-		public e-SiyakhokhaPage ()
+		public SiyakhokhaPage ()
 		{
 			InitializeComponent ();
 		}

@@ -16,8 +16,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)e-SiyakhokhaPage.xaml.cs">
-      <DependentUpon>e-SiyakhokhaPage.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)SiyakhokhaPage.xaml.cs">
+      <DependentUpon>SiyakhokhaPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)GeneralPage.xaml.cs">
@@ -69,7 +69,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)e-SiyakhokhaPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SiyakhokhaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
