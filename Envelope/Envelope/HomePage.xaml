@@ -10,29 +10,11 @@
         <StackLayout>
 
             <Image  Margin="20" VerticalOptions="Start" HeightRequest="150" WidthRequest="150"  Source="Ekurhulen.png"/>
+  
             <StackLayout>
 
                 <Button   
-                Clicked="Button_Clicked"
-                BackgroundColor="Gray"
-                 TextColor="White"
-                HeightRequest="40"
-                Text="Tourism">
-                    <Button.Image>
-                        <OnPlatform x:TypeArguments="FileImageSource"
-                                iOS="ic_card_travel_2x.png"                     
-                                Android="ic_card_travel_black_24dp.png"                     
-                               />
-
-                    </Button.Image>
-
-                </Button>
-
-            </StackLayout>
-            <StackLayout>
-
-                <Button   
-                Clicked="Button_Clicked_1"
+                Clicked="Settings_Clicked"
                 BackgroundColor="Gray"
                  TextColor="White"
                  HeightRequest="40"
@@ -48,30 +30,12 @@
                 </Button>
 
             </StackLayout>
-            <StackLayout>
-
-                <Button   
-                Clicked="Button_Clicked_2"
-                TextColor="White"
-                HeightRequest="40"
-                BackgroundColor="Gray"
-                Text="Report It">
-                    <Button.Image>
-                        <OnPlatform x:TypeArguments="FileImageSource"
-                                iOS="ic_event_note_2x.png"                     
-                                Android="ic_event_note_black_24dp.png"                     
-                               />
-
-                    </Button.Image>
-
-                </Button>
-
-            </StackLayout>
+            
 
             <StackLayout>
 
                 <Button   
-                Clicked="Button_Clicked_3"
+                Clicked="General_Clicked"
                 TextColor="White"    
                 HeightRequest="40"
                 BackgroundColor="Gray"
@@ -90,7 +54,7 @@
             <StackLayout>
 
                 <Button   
-                Clicked="Button_Clicked_4"
+                Clicked="Siyakhokha_Clicked"
                 HeightRequest="40"
                 TextColor="White"
                 BackgroundColor="Gray"
@@ -107,25 +71,6 @@
 
             </StackLayout>
 
-            <StackLayout>
-
-                <Button   
-                Clicked="Button_Clicked_5"
-                HeightRequest="40"
-                TextColor="White"
-                BackgroundColor="Gray"
-                Text="Request It">
-                    <Button.Image>
-                        <OnPlatform x:TypeArguments="FileImageSource"
-                                iOS="ic_file_download_2x.png"                     
-                                Android="ic_file_download_black_24dp.png"                      
-                               />
-
-                    </Button.Image>
-
-                </Button>
-
-            </StackLayout>
 
         </StackLayout>
     </ScrollView>
