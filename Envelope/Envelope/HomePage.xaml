@@ -4,12 +4,128 @@
              x:Class="Envelope.HomePage"
              BackgroundColor="White"
              Title="City Of Ekurhuleni">
+    <ScrollView HorizontalOptions="CenterAndExpand">
 
 
-
-    <ScrollView>
         <StackLayout>
-            <Image  Margin="20" VerticalOptions="Start" HeightRequest="220" WidthRequest="220"  Source="Ekurhulen.png"/>
+
+            <Image  Margin="20" VerticalOptions="Start" HeightRequest="150" WidthRequest="150"  Source="Ekurhulen.png"/>
+            <StackLayout>
+
+                <Button   
+                Clicked="Button_Clicked"
+                BackgroundColor="Gray"
+                 TextColor="White"
+                HeightRequest="40"
+                Text="Tourism">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource"
+                                iOS="ic_card_travel_2x.png"                     
+                                Android="ic_card_travel_black_24dp.png"                     
+                               />
+
+                    </Button.Image>
+
+                </Button>
+
+            </StackLayout>
+            <StackLayout>
+
+                <Button   
+                Clicked="Button_Clicked_1"
+                BackgroundColor="Gray"
+                 TextColor="White"
+                 HeightRequest="40"
+                Text="Settings">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource"
+                                iOS="ic_build_2x.png"                     
+                                Android="ic_build_black_24dp.png"                     
+                               />
+
+                    </Button.Image>
+
+                </Button>
+
+            </StackLayout>
+            <StackLayout>
+
+                <Button   
+                Clicked="Button_Clicked_2"
+                TextColor="White"
+                HeightRequest="40"
+                BackgroundColor="Gray"
+                Text="Report It">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource"
+                                iOS="ic_event_note_2x.png"                     
+                                Android="ic_event_note_black_24dp.png"                     
+                               />
+
+                    </Button.Image>
+
+                </Button>
+
+            </StackLayout>
+
+            <StackLayout>
+
+                <Button   
+                Clicked="Button_Clicked_3"
+                TextColor="White"    
+                HeightRequest="40"
+                BackgroundColor="Gray"
+                Text="General">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource"
+                                 iOS="ic_assignment_2x.png"                     
+                                Android="ic_assignment_black_24dp.png"                     
+                               />
+
+                    </Button.Image>
+
+                </Button>
+
+            </StackLayout>
+            <StackLayout>
+
+                <Button   
+                Clicked="Button_Clicked_4"
+                HeightRequest="40"
+                TextColor="White"
+                BackgroundColor="Gray"
+                Text="e-Siyakhokha">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource"
+                                iOS="ic_shopping_cart_2x.png"                     
+                                Android="ic_shopping_cart_black_24dp.png"                      
+                               />
+
+                    </Button.Image>
+
+                </Button>
+
+            </StackLayout>
+
+            <StackLayout>
+
+                <Button   
+                Clicked="Button_Clicked_5"
+                HeightRequest="40"
+                TextColor="White"
+                BackgroundColor="Gray"
+                Text="Request It">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource"
+                                iOS="ic_file_download_2x.png"                     
+                                Android="ic_file_download_black_24dp.png"                      
+                               />
+
+                    </Button.Image>
+
+                </Button>
+
+            </StackLayout>
 
         </StackLayout>
     </ScrollView>
