@@ -5,12 +5,28 @@
              Title=" City of Ekurhuleni"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="_General"
+                     Order="Secondary"
+                     Priority="0"
+                     Text="General"
+                     Clicked="TapGestureRecognizer_Tapped_1"/>
+
+
+        <ToolbarItem Name="_Settings"
+                     Order="Secondary"
+                     Text="Settings" Priority="1"
+                     Clicked="TapGestureRecognizer_Tapped_2"/>
+    </ContentPage.ToolbarItems> 
+ 
     <ScrollView HorizontalOptions="CenterAndExpand">
 
 
         <StackLayout>
 
             <Image  Margin="20" HorizontalOptions="Start" HeightRequest="150" WidthRequest="150"  Source="Ekurhulen.png"/>
+
+
 
             <StackLayout Orientation="Horizontal">
                 <StackLayout>
@@ -28,7 +44,10 @@
                         </Image.GestureRecognizers>
 
                     </controls:CircleImage>
-                    <Label Text="e-Siyakhokha" TranslationX="15"  TranslationY="30"/>
+                    <Label Text="e-Siyakhokha" 
+                           TranslationX="15"
+                           TranslationY="30"
+/>
                 </StackLayout>
 
                 <StackLayout>
@@ -40,7 +59,7 @@
                     TranslationY="30">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer 
-                                Tapped="TapGestureRecognizer_Tapped_1"
+                                Tapped="TapGestureRecognizer_Tapped_2"
                                 NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
 
@@ -57,7 +76,7 @@
                     TranslationY="30">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer 
-                                Tapped="TapGestureRecognizer_Tapped_2"
+                                Tapped="TapGestureRecognizer_Tapped_1"
                                 NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
 
