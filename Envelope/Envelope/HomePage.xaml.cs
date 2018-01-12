@@ -17,21 +17,19 @@ namespace Envelope
 			InitializeComponent ();
 		}
 
-
-        async void Settings_Clicked(object sender, EventArgs args)
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SettingPage());
+            await Navigation.PushAsync(new SiyakhokhaPage());
         }
 
-        async void General_Clicked(object sender, EventArgs args)
+        private async void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new GeneralsPage());
         }
 
-        async void Siyakhokha_Clicked(object sender, EventArgs args)
+        private async void TapGestureRecognizer_Tapped_2(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SiyakhokhaPage());
+            await Navigation.PushAsync(new SettingPage());
         }
-    
     }
 }
