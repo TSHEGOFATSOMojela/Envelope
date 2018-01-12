@@ -31,5 +31,6 @@ namespace Envelope
         {
             await Navigation.PushAsync(new SettingPage());
         }
+    
     }
 }
