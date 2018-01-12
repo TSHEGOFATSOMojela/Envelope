@@ -17,6 +17,10 @@
                      Order="Secondary"
                      Text="Settings" Priority="1"
                      Clicked="TapGestureRecognizer_Tapped_2"/>
+        <ToolbarItem Name="_Log out"
+                     Order="Secondary"
+                     Text="Log out" Priority="1"
+                     Clicked="TapGestureRecognizer_Tapped_4"/>
     </ContentPage.ToolbarItems> 
  
     <ScrollView HorizontalOptions="CenterAndExpand">
