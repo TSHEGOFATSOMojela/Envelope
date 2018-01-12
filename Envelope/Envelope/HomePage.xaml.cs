@@ -31,6 +31,9 @@ namespace Envelope
         {
             await Navigation.PushAsync(new SettingPage());
         }
-    
+        private async void TapGestureRecognizer_Tapped_4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HomePage());
+        }
     }
 }
