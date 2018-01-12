@@ -223,6 +223,9 @@
   <ItemGroup>
     <BundleResource Include="Resources\ic_event_note_2x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_shopping_cart_black_24dp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\Envelope\Envelope.projitems" Label="Shared" />
 </Project>
