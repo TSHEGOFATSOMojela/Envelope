@@ -37,5 +37,17 @@ namespace Envelope
         {
             await Navigation.PushAsync(new HomePage());
         }
+        private async void EditProfileClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ProfilePage());
+        }
+        private async void PreferencesClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PreferencesPage());
+        }
+        private async void ChangePasswordClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PasswordPage());
+        }
     }
 }

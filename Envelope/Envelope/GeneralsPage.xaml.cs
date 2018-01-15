@@ -35,6 +35,14 @@ namespace Envelope
         {
             await Navigation.PushAsync(new HomePage());
         }
+        private async void BalanceEnquiryClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BalanceEnquiryPage());
+        }
+        private async void QueryCaseClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new QueryCasePage());
+        }
 
     }
 }
