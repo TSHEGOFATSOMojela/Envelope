@@ -39,6 +39,18 @@
 
                                 </Label>
                             </StackLayout>
+                            <Button Text="Edit Profile"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="CenterAndExpand"
+                                    Clicked="EditProfileClicked" />
+                            <Button Text="Preferences"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="CenterAndExpand"
+                                    Clicked="PreferencesClicked" />   
+                            <Button Text="Change Password"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="CenterAndExpand"
+                                    Clicked="ChangePasswordClicked" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>   

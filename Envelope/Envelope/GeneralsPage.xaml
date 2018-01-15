@@ -34,12 +34,23 @@
                                     </Label.GestureRecognizers>
                                 </Label>
                             </StackLayout>
+                            <Button Text="Balance Enquiry"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="BalanceEnquiryClicked" />
+                            <Button Text="Query Case"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="QueryCaseClicked" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
-
+              
             </ListView.ItemTemplate>
-
+        
         </ListView>
+  
+
+
     </ContentPage.Content>
 </ContentPage>
