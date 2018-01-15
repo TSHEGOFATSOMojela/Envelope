@@ -20,7 +20,7 @@
 
             <Button 
                 HorizontalOptions="Center"
-                BackgroundColor="Gray" 
+                BackgroundColor="DarkSlateBlue" 
                 TextColor="White"
                 x:Name="login"
                 Text="Login"
@@ -34,10 +34,10 @@
                 </Button.Image>
 
             </Button>
-          
 
 
-            <Label Text="New? Create Account" TextColor="Gray" HorizontalTextAlignment="Center"/>
+
+            <Label Text="New? Create Account" TextColor="DarkSlateBlue" HorizontalTextAlignment="Center"/>
         </StackLayout>
 
 

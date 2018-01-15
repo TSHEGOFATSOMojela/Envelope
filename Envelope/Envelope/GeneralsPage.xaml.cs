@@ -9,12 +9,32 @@ using Xamarin.Forms.Xaml;
 
 namespace Envelope
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class GeneralsPage : ContentPage
-	{
-		public GeneralsPage ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class GeneralsPage : ContentPage
+    {
+        public GeneralsPage()
+        {
+            InitializeComponent();
+
+            GeneralListView.ItemsSource = new List<GeneralLv>
+            {
+                new GeneralLv
+                { GeneralOptions = "Balance Enquiry"},
+                new GeneralLv
+                { GeneralOptions =   "Query Case"}
+
+
+        };
+       }
+        private async void TapGestureRecognizer_Tapped_4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HomePage());
+        }
+
+    }
 }

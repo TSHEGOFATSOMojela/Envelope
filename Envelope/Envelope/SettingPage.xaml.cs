@@ -15,6 +15,27 @@ namespace Envelope
 		public SettingPage ()
 		{
 			InitializeComponent ();
-		}
-	}
+
+            SettingListView.ItemsSource = new List<settingLv>
+            {
+                new settingLv
+                { SettingOptions = "Edit Profile"},
+                new settingLv
+                { SettingOptions =   "Preferences"},
+                new settingLv
+                { SettingOptions = "Change Password"}
+                
+            };
+
+        }
+        private async void TapGestureRecognizer_Tapped_4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HomePage());
+        }
+    }
 }

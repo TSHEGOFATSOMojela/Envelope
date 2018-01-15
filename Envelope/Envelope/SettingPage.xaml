@@ -1,13 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              x:Class="Envelope.SettingPage"
-             Title="Settings">
+             Title="         Settings"
+             WidthRequest="20">
+    
+   
+    <ContentPage.ToolbarItems>
+       
+        <ToolbarItem Name="_Log out"
+                     Order="Secondary"
+                     Text="Log out" Priority="1"
+                     Clicked="TapGestureRecognizer_Tapped_4"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Settings"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ListView x:Name="SettingListView"
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                    <StackLayout Orientation="Vertical" Padding="20">
+
+                            <StackLayout Orientation="Horizontal">
+                                <controls:CircleImage  
+                                    Source="siyakhoka.png"
+                                    WidthRequest="40" 
+                                    HeightRequest="40">
+
+
+                                </controls:CircleImage>
+                                <Label Text="{Binding SettingOptions}" Margin="10" VerticalTextAlignment="End">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer
+                                       Tapped="TapGestureRecognizer_Tapped"
+                                        NumberOfTapsRequired="1" />
+                                    </Label.GestureRecognizers>
+
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>   
+                
+            </ListView.ItemTemplate>
+            
+        </ListView>
     </ContentPage.Content>
 </ContentPage>
