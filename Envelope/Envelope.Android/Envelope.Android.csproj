@@ -45,6 +45,9 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.iOS">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\Xamarin.iOS\v1.0\Xamarin.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="easterapps.xamarin.forms.imagebutton">
@@ -68,8 +71,12 @@
     <PackageReference Include="Xamarin.Android.Support.v4" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Forms.NavigationExtensions">
+      <Version>1.0.2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\ILaunch.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

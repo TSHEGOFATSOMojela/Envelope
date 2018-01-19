@@ -16,12 +16,15 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)BalanceEnquiryPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Launch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\LaunchDroid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\LaunchIOS.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)General\BalanceEnquiryPage.xaml.cs">
       <DependentUpon>BalanceEnquiryPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)GeneralLv.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)GeneralsPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)General\GeneralLv.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)General\GeneralsPage.xaml.cs">
       <DependentUpon>GeneralsPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
@@ -32,28 +35,28 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)PasswordPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Settings\PasswordPage.xaml.cs">
       <DependentUpon>PasswordPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)PreferencesPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Settings\PreferencesPage.xaml.cs">
       <DependentUpon>PreferencesPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)ProfilePage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Settings\ProfilePage.xaml.cs">
       <DependentUpon>ProfilePage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)QueryCasePage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)General\QueryCasePage.xaml.cs">
       <DependentUpon>QueryCasePage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)settingLv.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)SettingPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Settings\settingLv.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Settings\SettingPage.xaml.cs">
       <DependentUpon>SettingPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)SiyakhokhaPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Siyakhokha\SiyakhokhaPage.xaml.cs">
       <DependentUpon>SiyakhokhaPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
@@ -63,46 +66,42 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SettingPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Settings\SettingPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)GeneralsPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)General\GeneralsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SiyakhokhaPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Siyakhokha\SiyakhokhaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)BalanceEnquiryPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)General\BalanceEnquiryPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)QueryCasePage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)General\QueryCasePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)ProfilePage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Settings\ProfilePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)PreferencesPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Settings\PreferencesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)PasswordPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Settings\PasswordPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <Page Include="$(MSBuildThisFileDirectory)views\mainLandingPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="$(MSBuildThisFileDirectory)views\mainLandingPageDetail.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="$(MSBuildThisFileDirectory)views\mainLandingPageMaster.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)General\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Siyakhokha\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Settings\" />
   </ItemGroup>
 </Project>

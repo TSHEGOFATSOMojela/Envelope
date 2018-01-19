@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,6 +36,13 @@ namespace Envelope
         {
             await Navigation.PushAsync(new MainPage());
         }
+   
+        private async void LaunchClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
 
-    }
+        }
+ 
+    
 }

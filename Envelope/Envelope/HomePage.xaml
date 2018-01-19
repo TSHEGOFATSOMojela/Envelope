@@ -30,7 +30,13 @@
         <StackLayout>
 
             <Image  Margin="20" HorizontalOptions="Center" HeightRequest="150" WidthRequest="150"  Source="Ekurhulen.png"/>
-
+            <Button 
+                HorizontalOptions="Center"
+                BackgroundColor="DarkSlateBlue" 
+                TextColor="White"
+                x:Name="launch"
+                Text="launch"
+                Clicked="LaunchClicked"/>
             <StackLayout Orientation="Horizontal">
                 <StackLayout Margin="15">
 

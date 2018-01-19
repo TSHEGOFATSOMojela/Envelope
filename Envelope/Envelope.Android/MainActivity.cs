@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Envelope.Core.Droid;
 
 namespace Envelope.Droid
 {
@@ -20,6 +21,7 @@ namespace Envelope.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            Xamarin.Forms.DependencyService.Register<LaunchDroid>();
             LoadApplication(new App());
         }
     }
