@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Envelope.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,7 @@ namespace Envelope
 
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
+            DependencyService.Get<IOpenApp>().OpenExternalApp();
             await Navigation.PushAsync(new SiyakhokhaPage());
         }
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+//using Envelope.Interfaces.iOS;
 using Foundation;
 using UIKit;
 
@@ -23,6 +23,7 @@ namespace Envelope.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            //Xamarin.Forms.DependencyService.Register<OpenAppiOS>();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

@@ -31,6 +31,7 @@
 
             <Image  Margin="20" HorizontalOptions="Center" HeightRequest="150" WidthRequest="150"  Source="Ekurhulen.png"/>
 
+
             <StackLayout Orientation="Horizontal">
                 <StackLayout Margin="15">
 
