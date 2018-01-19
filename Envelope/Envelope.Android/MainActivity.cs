@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Envelope.Interfaces.Droid;
 
 namespace Envelope.Droid
 {
@@ -16,10 +17,12 @@ namespace Envelope.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
+            Xamarin.Forms.DependencyService.Register<OpenAppAndroid>();
 
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            
             LoadApplication(new App());
         }
     }
