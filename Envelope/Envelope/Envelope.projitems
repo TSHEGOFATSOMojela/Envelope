@@ -20,6 +20,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)FacebookProfilePage.xaml.cs">
+      <DependentUpon>FacebookProfilePage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)GeneralPages\BalanceEnquiryPage.xaml.cs">
       <DependentUpon>BalanceEnquiryPage.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -43,6 +47,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\FacebookProfile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\FacebookServices.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SettingsPages\PasswordPage.xaml.cs">
       <DependentUpon>PasswordPage.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -64,6 +70,7 @@
       <DependentUpon>SiyakhokhaPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\FacebookViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)HomePage.xaml">
@@ -95,6 +102,10 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)GeneralPages\BalanceEnquiryPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)FacebookProfilePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
