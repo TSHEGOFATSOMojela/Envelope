@@ -36,7 +36,7 @@ namespace Envelope
                 Source = apiRequest,
                 HeightRequest = 1
             };
-            https://www.facebook.com/dialog/oauth?client_id=361849814291391&display=popup&response_type=token&redirect_uri=http://www.facebook.com/connect/login_success.html
+           
             webView.Navigated += WebViewOnNavigated;
 
             Content = webView;

@@ -20,7 +20,7 @@ namespace Envelope.Droid
             Xamarin.Forms.DependencyService.Register<OpenAppAndroid>();
 
             base.OnCreate(bundle);
-
+            global::Xamarin.Auth.Presenters.XamarinAndroid.AuthenticationConfiguration.Init(this, bundle);
             global::Xamarin.Forms.Forms.Init(this, bundle);
             
             LoadApplication(new App());

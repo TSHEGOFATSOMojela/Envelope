@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Envelope.ResetPassPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry x:Name="NewPassword" IsPassword="True"
+                   Placeholder="New Password" 
+                   HorizontalTextAlignment="Center"/>
+            <Entry x:Name="RepeatPassword"
+                   IsPassword="True"
+                   Placeholder="Repeat Password"
+                   HorizontalTextAlignment="Center"/>
+            <Button Text="Submit"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="White"
+                    Font="Bold"
+                    Clicked="SubmitPassClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

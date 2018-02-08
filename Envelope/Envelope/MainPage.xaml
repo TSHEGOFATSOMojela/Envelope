@@ -35,12 +35,24 @@
 
             </Button>
 
+            
 
-
-            <Label Text="New? Create Account"
+                <Label Text="New? Create Account"
                    TextColor="DarkSlateBlue"
                    HorizontalTextAlignment="Center"
                    />
+            <Button Text="New? Create Account"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="White"
+                    Font="Bold"
+                    Clicked="CreateClicked"/>
+            <Button Text="Forget password"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="White"
+                    Font="Bold"
+                    Clicked="ForgetPassClicked"/>
             <Button Text="Facebook"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -48,6 +60,13 @@
                     BackgroundColor="#01579B"
                     Font="Bold"
                     Clicked="LoginWithFacebook_Clicked">
+            </Button>
+            <Button Text="Twitter"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="White"
+                    Font="Bold"
+                    Clicked="LoginWithTwitter_Clicked">
             </Button>
         </StackLayout>
 

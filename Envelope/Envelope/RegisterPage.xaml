@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Envelope.RegisterPage"
+             Title="Register"
+             Icon="reg.png">
+    <ContentPage.Content>
+
+        <ScrollView HorizontalOptions="CenterAndExpand">
+            <StackLayout>
+                <Entry x:Name="username"
+                       Placeholder="Username"
+                       HorizontalTextAlignment="Center"/>
+                <Entry x:Name="Title"
+                       IsPassword="True"
+                       Placeholder="Title"
+                       HorizontalTextAlignment="Center"/>
+                <Entry x:Name="Initials"
+                       IsPassword="True"
+                       Placeholder="Initials"
+                       HorizontalTextAlignment="Center"/>
+                <Entry x:Name="Name"
+                       IsPassword="True"
+                       Placeholder="Name"
+                       HorizontalTextAlignment="Center"/>
+                <Entry x:Name="IdType"
+                       IsPassword="True"
+                       Placeholder="Type Of ID"
+                       HorizontalTextAlignment="Center"/>
+                <Entry x:Name="Id"
+                       IsPassword="True"
+                       Placeholder="ID/Passport"
+                       HorizontalTextAlignment="Center"/>
+                <Entry x:Name="RegContact"
+                       IsPassword="True"
+                       Placeholder="Registration Prefered Contact"
+                       HorizontalTextAlignment="Center"/>
+                <Entry x:Name="Email"
+                       IsPassword="True"
+                       Placeholder="SMS/Email"
+                       HorizontalTextAlignment="Center"/>
+                <Button Text="Register"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    BackgroundColor="#01579B"
+                    TextColor="White"
+                    Font="Bold"
+                    Clicked="RegisterClicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
