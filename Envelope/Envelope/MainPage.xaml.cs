@@ -35,8 +35,8 @@ namespace Envelope
         public void LoginWithTwitter_Clicked(object sender, EventArgs e)
         {
             var auth = new OAuth1Authenticator(
-                 consumerKey: "JIl4roSl3IGPrZu0BAMCY3hln",
-                 consumerSecret: "9eMfy9aSdc0jxMyni6HYPvgJoysMSxTZgmDGBFEZqRaXMpodY0",
+                 consumerKey: "i7iFU4LVvXRRKon1nl14dfJvR",
+                 consumerSecret: "R7ogTG85TV3Whio55URxyLRM2LVi2Z58CqHO3JE5628W9b1IeB",
                  requestTokenUrl: new Uri("https://api.twitter.com/oauth/request_token"),
                  authorizeUrl: new Uri("https://api.twitter.com/oauth/authorize"),
                  accessTokenUrl: new Uri("https://api.twitter.com/oauth/access_token"),
@@ -46,8 +46,8 @@ namespace Envelope
 
 
             auth.Completed += OnAuthCompleted;
-            Xamarin.Auth.Presenters.OAuthLoginPresenter presenter = null;
-            presenter = new Xamarin.Auth.Presenters.OAuthLoginPresenter();
+            
+            var presenter = new Xamarin.Auth.Presenters.OAuthLoginPresenter();
             presenter.Login(auth);
            
         }
@@ -60,16 +60,18 @@ namespace Envelope
                 //use the account object and make the desired API call
                 var request = new OAuth1Request(
                   "GET",
-                  new Uri("https://api.twitter.com/1.1/account/verify_credentials.json "),
+                  new Uri("https://api.twitter.com/1.1/account/verify_credentials.json"),
                   null,
                   e.Account);
                 var response = await request.GetResponseAsync();
                 var json = response.GetResponseText();
                 var twitterUser = JsonConvert.DeserializeObject<TwitterUser>(json);
-
-                
             }
-            await Navigation.PushAsync(new HomePage());
+            else
+            {
+                Console.WriteLine("not loged in");
+            }
+            
 
 
         }
