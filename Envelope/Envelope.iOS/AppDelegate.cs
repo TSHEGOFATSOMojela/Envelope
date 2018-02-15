@@ -25,7 +25,7 @@ namespace Envelope.iOS
             global::Xamarin.Forms.Forms.Init();
             //Xamarin.Forms.DependencyService.Register<OpenAppiOS>();
             LoadApplication(new App());
-
+            global::Xamarin.Auth.Presenters.XamarinIOS.AuthenticationConfiguration.Init();
             return base.FinishedLaunching(app, options);
         }
     }

@@ -49,6 +49,14 @@
                     Font="Bold"
                     Clicked="LoginWithFacebook_Clicked">
             </Button>
+            <Button Text="Twitter"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="#01579B"
+                    Font="Bold"
+                    Clicked="LoginWithTwitter_Clicked">
+            </Button>
         </StackLayout>
 
 

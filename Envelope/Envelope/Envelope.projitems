@@ -70,6 +70,7 @@
       <DependentUpon>SiyakhokhaPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)TwitterUser.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\FacebookViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
